@@ -1,1855 +1,2394 @@
 {
-    "Hylian Hood": {
-        "upgrades": [
-            {
-                "Bokoblin Horn": 5
-            },
-            {
-                "Blue Bokoblin Horn": 5,
-                "Bokoblin Fang": 3
-            },
-            {
-                "Amber": 20,
-                "Bokoblin Guts": 3,
-                "Black Bokoblin Horn": 5
-            }
-        ],
-        "setIndex": 2,
-        "type": "hat"
-    },
-    "Hylian Trousers": {
-        "upgrades": [
-            {
-                "Bokoblin Horn": 5
-            },
-            {
-                "Blue Bokoblin horn": 5,
-                "Bokoblin Fang": 3
-            },
-            {
-                "Amber": 20,
-                "Bokoblin Guts": 3,
-                "Bokoblin Horn": 5
-            }
-        ],
-        "setIndex": 2,
-        "type": "legs"
-    },
-    "Hylian Tunic": {
-        "upgrades": [
-            {
-                "Bokoblin Horn": 5
-            },
-            {
-                "Blue Bokoblin Horn": 5,
-                "Bokoblin Fang": 3
-            },
-            {
-                "Amber": 20,
-                "Bokoblin Guts": 3,
-                "Black Bokoblin Horn": 5
-            }
-        ],
-        "setIndex": 2,
-        "type": "chest"
-    },
-    "Cap of the Wild": {
-        "upgrades": [
-            {
-                "Acorn": 10,
-                "Farosh's Scale": 2
-            },
-            {
-                "Courser Bee Honey": 5,
-                "Farosh's Claw": 2
-            },
-            {
-                "Energetic Rhino Beetle": 3,
-                "Shard of Farosh's Fang": 2,
-                "Shard of Farosh's Spike": 5
-            }
-        ],
-        "type": "hat"
-    },
-    "Trouser of the Wild": {
-        "upgrades": [
-            {
-                "Acorn": 10,
-                "Farosh's Scale": 2
-            },
-            {
-                "Courser Bee Honey": 5,
-                "Farosh's Claw": 2
-            },
-            {
-                "Energetic Rhino Beetle": 3,
-                "Shard of Farosh's Fang": 2,
-                "Shard of Farosh's Spike": 5
-            }
-        ],
-        "type": "legs"
-    },
-    "Tunic of the Wild": {
-        "upgrades": [
-            {
-                "Acorn": 10,
-                "Farosh's Scale": 2
-            },
-            {
-                "Courser Bee Honey": 5,
-                "Farosh's Claw": 2
-            },
-            {
-                "Energetic Rhino Beetle": 3,
-                "Shard of Farosh's Fang": 2,
-                "Shard of Farosh's Spike": 5
-            }
-        ],
-        "type": "chest"
-    },
-    "Solder's Helm": {
-        "upgrades": [
-            {
-                "Chuchu Jelly": 5,
-                "Bokoblin Guts": 3
-            },
-            {
-                "Keese Eyeball": 5,
-                "Moblin Guts": 3
-            },
-            {
-                "Flint": 30,
-                "Lizalfos Tail": 3,
-                "Hinox Guts": 3
-            }
-        ],
-        "type": "hat"
-    },
-    "Soldier's Greaves": {
-        "upgrades": [
-            {
-                "Chuchu Jelly": 5,
-                "Bokoblin Guts": 3
-            },
-            {
-                "Keese Eyeball": 5,
-                "Moblin Guts": 3
-            },
-            {
-                "Flint": 30,
-                "Lizalfos Tail": 3,
-                "Hinox Guts": 3
-            }
-        ]
-    },
-    "Soldier's Armor": {
-        "upgrades": [
-            {
-                "Chuchu Jelly": 5,
-                "Bokoblin Guts": 3
-            },
-            {
-                "Keese Eyeball": 5,
-                "Moblin Guts": 3
-            },
-            {
-                "Flint": 30,
-                "Lizalfos Tail": 3,
-                "Hinox Guts": 3
-            }
-        ],
-        "type": "chest"
-    },
-    "Mask of Awakening": {
-        "upgrades": [
-            {
-                "Luminous Stone": 10,
-                "Star Fragment": 1
-            },
-            {
-                "Luminous Stone": 15,
-                "Star Fragment": 1
-            },
-            {
-                "Luminous Stone": 20,
-                "Star Fragment": 1
-            }
-        ],
-        "type": "hat"
-    },
-    "Trousers of Awakening": {
-        "upgrades": [
-            {
-                "Luminous Stone": 10,
-                "Star Fragment": 1
-            },
-            {
-                "Luminous Stone": 15,
-                "Star Fragment": 1
-            },
-            {
-                "Luminous Stone": 20,
-                "Star Fragment": 1
-            }
-        ],
-        "type": "legs"
-    },
-    "Tunic of Awakening": {
-        "upgrades": [
-            {
-                "Luminous Stone": 10,
-                "Star Fragment": 1
-            },
-            {
-                "Luminous Stone": 15,
-                "Star Fragment": 1
-            },
-            {
-                "Luminous Stone": 20,
-                "Star Fragment": 1
-            }
-        ],
-        "type": "chest"
-    },
-    "Champions Tunic": {
-        "upgrades": [
-            {
-                "Silent Princess": 3,
-                "Light Dragon's Scale": 2
-            },
-            {
-                "Silent Princess": 3,
-                "Light Dragon's Talon": 2,
-                "Sundelion": 10
-            },
-            {
-                "Silent Princess": 5,
-                "Shard of Light Dragon's Fang": 2,
-                "Sundelion": 15
-            }
-        ],
-        "type": "chest"
-    },
-    "Tunic of Memories": {
-        "upgrades": [
-            {
-                "Silent Princess": 3,
-                "Light Dragon's Scale": 1
-            },
-            {
-                "Silent Princess": 3,
-                "Light Dragon's Talon": 1,
-                "Farosh's Horn": 2
-            },
-            {
-                "Silent Princess": 5,
-                "Shard of Light Dragon's Fang": 1,
-                "Naydra's Horn": 2
-            }
-        ],
-        "type": "chest"
-    },
-    "Royal Guard Cap": {
-        "upgrades": [
-            {
-                "Bokoblin Guts": 3,
-                "Boss Bokoblin Horn": 3
-            },
-            {
-                "Blue Boss Bokoblin Horn": 3,
-                "Bokoblin Fang": 3
-            },
-            {
-                "Black Boss Bokoblin Horn": 3,
-                "Hinox Guts": 3
-            }
-        ],
-        "type": "hat"
-    },
-    "Royal Guard Boots": {
-        "upgrades": [
-            {
-                "Bokoblin Guts": 3,
-                "Boss Bokoblin Horn": 3
-            },
-            {
-                "Blue Boss Bokoblin Horn": 3,
-                "Boss Bokoblin Fang": 3
-            },
-            {
-                "Black Boss Bokoblin Horn": 3,
-                "Hinox Guts": 3
-            }
-        ],
-        "type": "legs"
-    },
-    "Royal Guard Uniform": {
-        "upgrades": [
-            {
-                "Bokoblin Guts": 3,
-                "Boss Bokoblin Horn": 3
-            },
-            {
-                "Blue Boss Bokoblin Horn": 3,
-                "Boss Bokoblin Fang": 3
-            },
-            {
-                "Black Boss Bokoblin Horn": 3,
-                "Hinox Guts": 3
-            }
-        ],
-        "type": "chest"
-    },
-    "Cap of Time": {
-        "upgrades": [
-            {
-                "Amber": 10,
-                "Star Fragment": 1
-            },
-            {
-                "Amber": 20,
-                "Star Fragment": 1
-            },
-            {
-                "Amber": 30,
-                "Star Fragment": 1
-            }
-        ],
-        "type": "hat"
-    },
-    "Trousers of Time": {
-        "upgrades": [
-            {
-                "Amber": 10,
-                "Star Fragment": 1
-            },
-            {
-                "Amber": 20,
-                "Star Fragment": 1
-            },
-            {
-                "Amber": 30,
-                "Star Fragment": 1
-            }
-        ],
-        "type": "legs"
-    },
-    "Tunic of Time": {
-        "upgrades": [
-            {
-                "Amber": 10,
-                "Star Fragment": 1
-            },
-            {
-                "Amber": 20,
-                "Star Fragment": 1
-            },
-            {
-                "Amber": 30,
-                "Star Fragment": 1
-            }
-        ],
-        "type": "chest"
-    },
-    "Cap of the Wind": {
-        "upgrades": [
-            {
-                "Opal": 5,
-                "Star Fragment": 1
-            },
-            {
-                "Opal": 10,
-                "Star Fragment": 1
-            },
-            {
-                "Opal": 15,
-                "Star Fragment": 1
-            }
-        ],
-        "setIndex": 17,
-        "type": "hat"
-    },
-    "Trousers of the Wind": {
-        "upgrades": [
-            {
-                "Opal": 5,
-                "Star Fragment": 1
-            },
-            {
-                "Opal": 10,
-                "Star Fragment": 1
-            },
-            {
-                "Opal": 15,
-                "Star Fragment": 1
-            }
-        ],
-        "setIndex": 17,
-        "type": "legs"
-    },
-    "Tunic of the Wind": {
-        "upgrades": [
-            {
-                "Opal": 5,
-                "Star Fragment": 1
-            },
-            {
-                "Opal": 10,
-                "Star Fragment": 1
-            },
-            {
-                "Opal": 15,
-                "Star Fragment": 1
-            }
-        ],
-        "setIndex": 17,
-        "type": "chest"
-    },
-    "Cap of Twilight": {
-        "upgrades": [
-            {
-                "Topaz": 1,
-                "Star Fragment": 1
-            },
-            {
-                "Topaz": 4,
-                "Star Fragment": 1
-            },
-            {
-                "Topaz": 6,
-                "Star Fragment": 1
-            }
-        ],
-        "type": "hat"
-    },
-    "Trousers of Twilight": {
-        "upgrades": [
-            {
-                "Topaz": 1,
-                "Star Fragment": 1
-            },
-            {
-                "Topaz": 4,
-                "Star Fragment": 1
-            },
-            {
-                "Topaz": 6,
-                "Star Fragment": 1
-            }
-        ],
-        "type": "legs"
-    },
-    "Tunic of Twilight": {
-        "upgrades": [
-            {
-                "Topaz": 1,
-                "Star Fragment": 1
-            },
-            {
-                "Topaz": 4,
-                "Star Fragment": 1
-            },
-            {
-                "Topaz": 6,
-                "Star Fragment": 1
-            }
-        ],
-        "type": "chest"
-    },
-    "Cap of the Sky": {
-        "upgrades": [
-            {
-                "Sapphire": 1,
-                "Star Fragment": 1
-            },
-            {
-                "Sapphire": 4,
-                "Star Fragment": 1
-            },
-            {
-                "Sapphire": 6,
-                "Star Fragment": 1
-            }
-        ],
-        "setIndex": 18,
-        "type": "hat"
-    },
-    "Trousers of the Sky": {
-        "upgrades": [
-            {
-                "Sapphire": 1,
-                "Star Fragment": 1
-            },
-            {
-                "Sapphire": 4,
-                "Star Fragment": 1
-            },
-            {
-                "Sapphire": 6,
-                "Star Fragment": 1
-            }
-        ],
-        "setIndex": 18,
-        "type": "legs"
-    },
-    "Tunic of the Sky": {
-        "upgrades": [
-            {
-                "Sapphire": 1,
-                "Star Fragment": 1
-            },
-            {
-                "Sapphire": 4,
-                "Star Fragment": 1
-            },
-            {
-                "Sapphire": 6,
-                "Star Fragment": 1
-            }
-        ],
-        "setIndex": 18,
-        "type": "chest"
-    },
-    "Desert Voe Headband": {
-        "upgrades": [
-            {
-                "White Chuchu Jelly": 3
-            },
-            {
-                "White Chuchu Jelly": 5,
-                "Cool Stafflina": 3
-            },
-            {
-                "Chillshroom": 5,
-                "Ice Keese Wing": 5,
-                "Ice-Breath Lizalfos Tail": 3
-            }
-        ],
-        "bonus": "Heat Resistance",
-        "setIndex": 5,
-        "type": "hat"
-    },
-    "Desert Voe Trousers": {
-        "upgrades": [
-            {
-                "White Chuchu Jelly": 3
-            },
-            {
-                "White Chuchu Jelly": 5,
-                "Cool Safflina": 3
-            },
-            {
-                "Chillshroom": 5,
-                "Ice Keese Wing": 5,
-                "Ice-breath Lizalfos Tail": 3
-            }
-        ],
-        "bonus": "Heat Resistance",
-        "setIndex": 5,
-        "type": "legs"
-    },
-    "Desert Voe Spaulder": {
-        "upgrades": [
-            {
-                "White Chuchu Jelly": 3
-            },
-            {
-                "White Chuchu Jelly": 5,
-                "Cool Safflina": 3
-            },
-            {
-                "Chillshroom": 5,
-                "Ice Keese Wing": 5,
-                "Ice-breath Lizalfos Tail": 3
-            }
-        ],
-        "bonus": "Heat Resistance",
-        "setIndex": 5,
-        "type": "chest"
-    },
-    "Snowquill Headdress": {
-        "upgrades": [
-            {
-                "Red Chuchu Jelly": 3
-            },
-            {
-                "Red Chuchu Jelly": 5,
-                "Warm Safflina": 3
-            },
-            {
-                "Sunshroom": 5,
-                "Fire Keese Wing": 5,
-                "Fire-breath Lizalfos Tail": 3
-            }
-        ],
-        "bonus": "Cold Resistance",
-        "setIndex": 3,
-        "type": "hat"
-    },
-    "Snowquil Trousers": {
-        "upgrades": [
-            {
-                "Red Chuchu Jelly": 3
-            },
-            {
-                "Red Chuchu Jelly": 5,
-                "Warm Safflina": 3
-            },
-            {
-                "Sunshroom": 5,
-                "Fire Keese Wing": 5,
-                "Fire-breath Lizalfos Tail": 3
-            }
-        ],
-        "bonus": "Cold Resistance",
-        "setIndex": 3,
-        "type": "legs"
-    },
-    "Snowquill Tunic": {
-        "upgrades": [
-            {
-                "Red Chuchu Jelly": 3
-            },
-            {
-                "Red Chuchu Jelly": 5,
-                "Warm Safflina": 3
-            },
-            {
-                "Sunshroom": 5,
-                "Fire Keese Wing": 5,
-                "Fire-breath Lizalfos Tail": 3
-            }
-        ],
-        "bonus": "Cold Resistance",
-        "setIndex": 3,
-        "type": "chest"
-    },
-    "Flamebreaker Helm": {
-        "upgrades": [
-            {
-                "Moblin Horn": 3
-            },
-            {
-                "Moblin Fang": 5,
-                "Fireproof Lizard": 5
-            },
-            {
-                "Blue Moblin Horn": 5,
-                "Flint": 15,
-                "Smotherwing Butterfly": 3
-            }
-        ],
-        "bonus": "Flame Guard",
-        "setIndex": 4,
-        "type": "hat"
-    },
-    "Flamebreaker Boots": {
-        "upgrades": [
-            {
-                "Moblin Horn": 3
-            },
-            {
-                "Moblin Fang": 5,
-                "Fireproof Lizard": 5
-            },
-            {
-                "Blue Moblin Horn": 5,
-                "Flint": 15,
-                "Smotherwing Butterfly": 3
-            }
-        ],
-        "bonus": "Flame Guard",
-        "setIndex": 4,
-        "type": "legs"
-    },
-    "Flamebreaker Armor": {
-        "upgrades": [
-            {
-                "Moblin Horn": 3
-            },
-            {
-                "Moblin Fang": 5,
-                "Fireproof Lizard": 5
-            },
-            {
-                "Blue Moblin Horn": 5,
-                "Flint": 15,
-                "Smotherwing Butterfly": 3
-            }
-        ],
-        "bonus": "Flame Guard",
-        "setIndex": 4,
-        "type": "chest"
-    },
-    "Ruby Circlet": {
-        "upgrades": [
-            {
-                "Ruby": 2,
-                "Flint": 3
-            },
-            {
-                "Ruby": 4,
-                "Flint": 5
-            },
-            {
-                "Ruby": 6,
-                "Star Fragment": 1
-            }
-        ],
-        "bonus": "Cold Resistance",
-        "type": "hat"
-    },
-    "Sapphire Circlet": {
-        "upgrades": [
-            {
-                "Sapphire": 2,
-                "Flint": 3
-            },
-            {
-                "Sapphire": 4,
-                "Flint": 5
-            },
-            {
-                "Sapphire": 6,
-                "Star Fragment": 1
-            }
-        ],
-        "bonus": "Heat Resistance"
-    },
-    "Topaz Earrings": {
-        "upgrades": [
-            {
-                "Topaz": 2,
-                "Flint": 3
-            },
-            {
-                "Topaz": 4,
-                "Flint": 5
-            },
-            {
-                "Topaz": 6,
-                "Star Fragment": 1
-            }
-        ],
-        "bonus": "Shock Resistance",
-        "type": "hat"
-    },
-    "Rubber Helm": {
-        "upgrades": [
-            {
-                "Yellow Chuchu Jelly": 3,
-                "Electric Lizalfos Horn": 1
-            },
-            {
-                "Yellow Chuchu Jelly": 8,
-                "Voltfruit": 5
-            },
-            {
-                "Zapshroom": 5,
-                "Electric Lizalfos Tail": 5,
-                "Electric Safflina": 8
-            }
-        ],
-        "bonus": "Shock Resistance",
-        "type": "hat"
-    },
-    "Rubber Tights": {
-        "upgrades": [
-            {
-                "Yellow Chuchu Jelly": 3,
-                "Electric Lizalfos Horn": 1
-            },
-            {
-                "Yellow Chuchu Jelly": 8,
-                "Voltfruit": 5
-            },
-            {
-                "Zapshroom": 5,
-                "Electric Lizalfos Tail": 5,
-                "Electric Safflina": 8
-            }
-        ],
-        "bonus": "Shock Resistance",
-        "type": "legs"
-    },
-    "Rubber Armor": {
-        "upgrades": [
-            {
-                "Yellow Chuchu Jelly": 3,
-                "Electric Lizalfos Horn": 1
-            },
-            {
-                "Yellow Chuchu Jelly": 8,
-                "Voltfruit": 5
-            },
-            {
-                "Zapshroom": 5,
-                "Electric Lizalfos Tail": 5,
-                "Electric Safflina": 8
-            }
-        ],
-        "bonus": "Shock Resistance",
-        "type": "chest"
-    },
-    "Froggy Hood": {
-        "upgrades": [
-            {
-                "Sticky Lizard": 3
-            },
-            {
-                "Sticky Lizard": 5,
-                "Horriblin Horn": 5
-            },
-            {
-                "Blue Horriblin Horn": 5,
-                "Sticky Frog": 5
-            }
-        ],
-        "bonus": "Slip Resistance",
-        "setIndex": 8,
-        "type": "hat"
-    },
-    "Froggy Leggings": {
-        "upgrades": [
-            {
-                "Sticky Lizard": 3
-            },
-            {
-                "Sticky Lizard": 5,
-                "Horriblin Horn": 5
-            },
-            {
-                "Blue Horriblin Horn": 5,
-                "Sticky Frog": 5
-            }
-        ],
-        "bonus": "Slip Resistance",
-        "setIndex": 8,
-        "type": "legs"
-    },
-    "Froggy Sleeve": {
-        "upgrades": [
-            {
-                "Sticky Lizard": 3
-            },
-            {
-                "Sticky Lizard": 5,
-                "Horriblin Horn": 5
-            },
-            {
-                "Blue Horriblin Horn": 5,
-                "Sticky Frog": 5
-            }
-        ],
-        "bonus": "Slip Resistance",
-        "setIndex": 8,
-        "type": "chest"
-    },
-    "Hood of the Depths": {
-        "upgrades": [
-            {
-                "Deep Firefly": 3
-            },
-            {
-                "Dark Clump": 5,
-                "Frox Fang": 3
-            },
-            {
-                "Zonaite": 20,
-                "Frox Fingernail": 3,
-                "Obsidian Frox Fang": 3
-            }
-        ],
-        "bonus": "Gloom Resistance",
-        "setIndex": 10,
-        "type": "hat"
-    },
-    "Gaiters of the Depths": {
-        "upgrades": [
-            {
-                "Deep Firefly": 3
-            },
-            {
-                "Dark Clump": 5,
-                "Frox Fang": 3
-            },
-            {
-                "Zonaite": 20,
-                "Frox Fingernail": 3,
-                "Obsidian Frox Fang": 3
-            }
-        ],
-        "bonus": "Gloom Resistance",
-        "setIndex": 10,
-        "type": "legs"
-    },
-    "Tunic of the Depths": {
-        "upgrades": [
-            {
-                "Deep Firefly": 3
-            },
-            {
-                "Dark Clump": 5,
-                "Frox Fang": 3
-            },
-            {
-                "Zonaite": 20,
-                "Frox Fingernail": 3,
-                "Obsidian Frox Fang": 3
-            }
-        ],
-        "bonus": "Gloom Resistance",
-        "setIndex": 10,
-        "type": "chest"
-    },
-    "Vah Medoh Divine Helm": {
-        "upgrades": [
-            {
-                "Sapphire": 1,
-                "Zonaite": 5
-            },
-            {
-                "Sapphire": 4,
-                "Zonaite": 10
-            },
-            {
-                "Sapphire": 6,
-                "Zonaite": 5,
-                "Dazzlefruit": 5
-            }
-        ],
-        "bonus": "Cold Resistance",
-        "setIndex": 14,
-        "type": "hat"
-    },
-    "Vah Rudania Divine Helm": {
-        "upgrades": [
-            {
-                "Zonaite": 5,
-                "Ruby": 1
-            },
-            {
-                "Zonaite": 10,
-                "Ruby": 4
-            },
-            {
-                "Ruby": 6,
-                "Large Zonate": 5,
-                "Dazzlefruit": 5
-            }
-        ],
-        "bonus": "Flame Guard",
-        "setIndex": 14,
-        "type": "hat"
-    },
-    "Vah Naboris Divine Helm": {
-        "upgrades": [
-            {
-                "Topaz": 1,
-                "Zonaite": 5
-            },
-            {
-                "Topaz": 4,
-                "Zonaite": 10
-            },
-            {
-                "Topaz": 6,
-                "Large Zonaite": 5,
-                "Dazzlefruit": 5
-            }
-        ],
-        "bonus": "Shock Resistance",
-        "setIndex": 14,
-        "type": "hat"
-    },
-    "Zora Helm": {
-        "upgrades": [
-            {
-                "Lizalfos Horn": 3
-            },
-            {
-                "Hyrule Bass": 5,
-                "Lizalfos Talon": 5
-            },
-            {
-                "Hearty Bass": 3,
-                "Lizalfos Tail": 3,
-                "Blue Lizalfos Horn": 5
-            }
-        ],
-        "bonus": "Swim Speed Up",
-        "type": "hat",
-        "setIndex": 4.5
-    },
-    "Zora Greaves": {
-        "upgrades": [
-            {
-                "Lizalfos Horn": 3
-            },
-            {
-                "Hyrule Bass": 5,
-                "Lizalfos Talon": 5
-            },
-            {
-                "Hearty Bass": 3,
-                "Lizalfos Tail": 3,
-                "Blue Lizalfos Horn": 5
-            }
-        ],
-        "bonus": "Swim Speed Up",
-        "type": "legs",
-        "setIndex": 4.5
-    },
-    "Zora Armor": {
-        "upgrades": [
-            {
-                "Lizalfos Horn": 3
-            },
-            {
-                "Hyrule Bass": 5,
-                "Lizalfos Talon": 5
-            },
-            {
-                "Hearty Bass": 3,
-                "Lizalfos Tail": 3,
-                "Blue Lizalfos Horn": 5
-            }
-        ],
-        "bonus": "Swim Speed Up",
-        "type": "chest",
-        "setIndex": 4.5
-    },
-    "Stealth Mask": {
-        "upgrades": [
-            {
-                "Blue Nightshade": 3
-            },
-            {
-                "Sunset Firefly": 5,
-                "Blue Nightshade": 5
-            },
-            {
-                "Silent Shroom": 8,
-                "Sneaky River Snail": 5
-            }
-        ],
-        "bonus": "Stealth Up",
-        "setIndex": 6,
-        "type": "hat"
-    },
-    "Stealth Tights": {
-        "upgrades": [
-            {
-                "Blue Nightshade": 3
-            },
-            {
-                "Sunset Firefly": 5,
-                "Blue Nightshade": 5
-            },
-            {
-                "Silent Shroom": 8,
-                "Sneaky River Snail": 5
-            }
-        ],
-        "bonus": "Stealth Up",
-        "setIndex": 6,
-        "type": "legs"
-    },
-    "Stealth Chest Guard": {
-        "upgrades": [
-            {
-                "Blue Nightshade": 3
-            },
-            {
-                "Sunset Firefly": 5,
-                "Blue Nightshade": 5
-            },
-            {
-                "Silent Shroom": 8,
-                "Sneaky River Snail": 5
-            }
-        ],
-        "bonus": "Stealth Up",
-        "setIndex": 6,
-        "type": "chest"
-    },
-    "Climber's Bandanna": {
-        "upgrades": [
-            {
-                "Keese Wing": 3,
-                "Rushroom": 3
-            },
-            {
-                "Electric Keese Wing": 5,
-                "Hightail Lizard": 5
-            },
-            {
-                "Hot-Footed Frog": 10,
-                "Keese Wing": 8
-            }
-        ],
-        "bonus": "Climb Speed Up",
-        "type": "hat"
-    },
-    "Climbing Boots": {
-        "upgrades": [
-            {
-                "Keese Wing": 3,
-                "Rushroom": 3
-            },
-            {
-                "Electric Keese Wing": 5,
-                "Hightail Lizard": 5
-            },
-            {
-                "Hot-Footed Frog": 10,
-                "Keese Wing": 8
-            }
-        ],
-        "bonus": "Climb Speed Up",
-        "type": "legs"
-    },
-    "Climbing Gear": {
-        "upgrades": [
-            {
-                "Keese Wing": 3,
-                "Rushroom": 3
-            },
-            {
-                "Electric Keese Wing": 5,
-                "Hightail Lizard": 5
-            },
-            {
-                "Hot-Footed Frog": 10,
-                "Keese Wing": 8
-            }
-        ],
-        "bonus": "Climb Speed Up",
-        "type": "chest"
-    },
-    "Diamond Circlet": {
-        "upgrades": [
-            {
-                "Diamond": 2,
-                "Flint": 3
-            },
-            {
-                "Diamond": 3,
-                "Flint": 5
-            },
-            {
-                "Diamond": 5,
-                "Star Fragment": 1
-            }
-        ],
-        "bonus": "Attack Up",
-        "type": "hat"
-    },
-    "Opal Earrings": {
-        "upgrades": [
-            {
-                "Opal": 6,
-                "Flint": 5
-            },
-            {
-                "Opal": 12,
-                "Flint": 10
-            },
-            {
-                "Opal": 18,
-                "Flint": 15
-            }
-        ],
-        "bonus": "Swim Speed Up",
-        "type": "hat"
-    },
-    "Barbarian Helm": {
-        "upgrades": [
-            {
-                "Mighty Thistle": 3
-            },
-            {
-                "Razorshroom": 5,
-                "Lynel Saber Horn": 2,
-                "Lynel Mace Horn": 2
-            },
-            {
-                "Blue Maned Lynel Saber Horn": 3,
-                "Blue Maned Lynel Mace Horn": 3,
-                "Razorclaw": 3
-            }
-        ],
-        "bonus": "Attack Up",
-        "setIndex": 7,
-        "type": "hat"
-    },
-    "Barbarian Leg Wraps": {
-        "upgrades": [
-            {
-                "Mighty Thistle": 3
-            },
-            {
-                "Razorshroom": 5,
-                "Lynel Saber Horn": 2,
-                "Lynel Mace Horn": 2
-            },
-            {
-                "Blue Maned Lynel Saber Horn": 3,
-                "Blue Maned Lynel Mace Horn": 3,
-                "Razorclaw": 3
-            }
-        ],
-        "bonus": "Attack Up",
-        "setIndex": 7,
-        "type": "legs"
-    },
-    "Barbarian Armor": {
-        "upgrades": [
-            {
-                "Mighty Thistle": 3
-            },
-            {
-                "Razorshroom": 5,
-                "Lynel Saber Horn": 2,
-                "Lynel Mace Horn": 2
-            },
-            {
-                "Blue Maned Lynel Saber Horn": 3,
-                "Blue Maned Lynel Mace Horn": 3,
-                "Razorclaw": 3
-            }
-        ],
-        "bonus": "Attack Up",
-        "setIndex": 7,
-        "type": "chest"
-    },
-    "Sand Boots": {
-        "upgrades": [
-            {
-                "Hightail Lizard": 3
-            },
-            {
-                "Gibdo Bone": 20,
-                "Swift Carrot": 5
-            },
-            {
-                "Gibdo Guts": 5,
-                "Rushroom": 10,
-                "Molduga Fin": 5
-            }
-        ],
-        "bonus": "Sand Speed Up",
-        "type": "legs"
-    },
-    "Glide Mask": {
-        "upgrades": [
-            {
-                "Keese Wing": 3
-            },
-            {
-                "Aerocuda Wing": 5,
-                "Aerocuda Eyeball": 6
-            },
-            {
-                "Aerocuda Wing": 6,
-                "Aerocuda Eyeball": 8
-            }
-        ],
-        "bonus": "Skydive Mobility Up",
-        "setIndex": 9,
-        "type": "hat"
-    },
-    "Glide Tights": {
-        "upgrades": [
-            {
-                "Keese Wing": 3
-            },
-            {
-                "Aerocuda Wing": 5,
-                "Aerocuda Eyeball": 6
-            },
-            {
-                "Aerocuda Wing": 6,
-                "Aerocuda Eyeball": 8
-            }
-        ],
-        "bonus": "Skydive Mobility Up",
-        "setIndex": 9,
-        "type": "legs"
-    },
-    "Glide Shirt": {
-        "upgrades": [
-            {
-                "Keese Wing": 3
-            },
-            {
-                "Aerocuda Wing": 5,
-                "Aerocuda Eyeball": 6
-            },
-            {
-                "Aerocuda Wing": 6,
-                "Aerocuda Eyeball": 8
-            }
-        ],
-        "bonus": "Skydive Mobility Up",
-        "setIndex": 9,
-        "type": "chest"
-    },
-    "Ember Headdress": {
-        "upgrades": [
-            {
-                "Fire Fruit": 3
-            },
-            {
-                "Fire-breath Lizalfos Horn": 5,
-                "Summerwing Butterfly": 5
-            },
-            {
-                "Fire Like Stone": 5,
-                "Warm Darner": 5,
-                "Large Zonai Charge": 5
-            }
-        ],
-        "bonus": "Hot Weather Attack Up",
-        "type": "hat"
-    },
-    "Ember Trousers": {
-        "upgrades": [
-            {
-                "Fire Fruit": 3
-            },
-            {
-                "Fire-breath Lizalfos Horn": 5,
-                "Summerwing Butterfly": 5
-            },
-            {
-                "Fire Like Stone": 5,
-                "Warm Darner": 5,
-                "Large Zonai Charge": 5
-            }
-        ],
-        "bonus": "Hot Weather Attack Up",
-        "type": "legs"
-    },
-    "Ember Shirt": {
-        "upgrades": [
-            {
-                "Fire Fruit": 3
-            },
-            {
-                "Fire-breath Lizalfos Horn": 5,
-                "Summerwing Butterfly": 5
-            },
-            {
-                "Fire Like Stone": 5,
-                "Warm Darner": 5,
-                "Large Zonai Charge": 5
-            }
-        ],
-        "bonus": "Hot Weather Attack Up",
-        "type": "chest"
-    },
-    "Charged Headdress": {
-        "upgrades": [
-            {
-                "Shock Fruit": 3
-            },
-            {
-                "Thunderwing Butterfly": 3,
-                "Electric Lizalfos Horn": 5
-            },
-            {
-                "Shock Like Stone": 5,
-                "Electric Darner": 5,
-                "Zonai Charge": 3
-            }
-        ],
-        "bonus": "Stormy Weather Attack Up",
-        "type": "hat"
-    },
-    "Charged Trousers": {
-        "upgrades": [
-            {
-                "Shock Fruit": 3
-            },
-            {
-                "Thunderwing Butterfly": 3,
-                "Electric Lizalfos Horn": 5
-            },
-            {
-                "Shock Like Stone": 5,
-                "Electric Darner": 5,
-                "Zonai Charge": 3
-            }
-        ],
-        "bonus": "Stormy Weather Attack Up",
-        "type": "legs"
-    },
-    "Charged Shirt": {
-        "upgrades": [
-            {
-                "Shock Fruit": 3
-            },
-            {
-                "Thunderwing Butterfly": 3,
-                "Electric Lizalfos Horn": 5
-            },
-            {
-                "Shock Like Stone": 5,
-                "Electric Darner": 5,
-                "Zonai Charge": 3
-            }
-        ],
-        "bonus": "Stormy Weather Attack Up",
-        "type": "chest"
-    },
-    "Frostbite Headdress": {
-        "upgrades": [
-            {
-                "Ice Fruit": 3
-            },
-            {
-                "Ice-breath Lizalfos Horn": 5,
-                "Winterwing Butterfly": 5
-            },
-            {
-                "Ice Like Stone": 5,
-                "Cold Darner": 5,
-                "Large Zonai Charge": 5
-            }
-        ],
-        "bonus": "Cold Weather Attack Up",
-        "setIndex": 12,
-        "type": "hat"
-    },
-    "Frostbite Trousers": {
-        "upgrades": [
-            {
-                "Ice Fruit": 3
-            },
-            {
-                "Ice-breath Lizalfos Horn": 5,
-                "Winterwing Butterfly": 5
-            },
-            {
-                "Ice Like Stone": 5,
-                "Cold Darner": 5,
-                "Large Zonai Charge": 5
-            }
-        ],
-        "bonus": "Cold Weather Attack Up",
-        "setIndex": 12,
-        "type": "legs"
-    },
-    "Frostbite Shirt": {
-        "upgrades": [
-            {
-                "Ice Fruit": 3
-            },
-            {
-                "Ice-breath Lizalfos Horn": 5,
-                "Winterwing Butterfly": 5
-            },
-            {
-                "Ice Like Stone": 5,
-                "Cold Darner": 5,
-                "Large Zonai Charge": 5
-            }
-        ],
-        "bonus": "Cold Weather Attack Up",
-        "setIndex": 12,
-        "type": "chest"
-    },
-    "Zonaite Helm": {
-        "upgrades": [
-            {
-                "Soldier Construct Horn": 5
-            },
-            {
-                "Soldier Construct II Horn": 5,
-                "Zonaite": 5,
-                "Captain Construct I Horn": 5
-            },
-            {
-                "Large Zonaite": 5,
-                "Captain Construct II Horn": 5,
-                "Soldier Construct III Horn": 5
-            }
-        ],
-        "bonus": "Energy Up",
-        "type": "hat"
-    },
-    "Zonaite Shin Guards": {
-        "upgrades": [
-            {
-                "Soldier Construct Horn": 5
-            },
-            {
-                "Soldier Construct II Horn": 5,
-                "Zonaite": 5,
-                "Captain Construct I Horn": 5
-            },
-            {
-                "Large Zonaite": 5,
-                "Captain Construct II Horn": 5,
-                "Soldier Construct III Horn": 5
-            }
-        ],
-        "bonus": "Energy Up",
-        "type": "legs"
-    },
-    "Zonaite Waistguard": {
-        "upgrades": [
-            {
-                "Soldier Construct Horn": 5
-            },
-            {
-                "Soldier Construct II Horn": 5,
-                "Zonaite": 5,
-                "Captain Construct I Horn": 5
-            },
-            {
-                "Large Zonaite": 5,
-                "Captain Construct II Horn": 5,
-                "Soldier Construct III Horn": 5
-            }
-        ],
-        "bonus": "Energy Up",
-        "type": "chest"
-    },
-    "Yiga Mask": {
-        "upgrades": [
-            {
-                "Octorok Eyeball": 2
-            },
-            {
-                "Puffshroom": 3,
-                "Fire-breath Lizalfos Tail": 3
-            },
-            {
-                "Ice-breath Lizalfos Tail": 5,
-                "Keese Eyeball": 5
-            }
-        ],
-        "bonus": "Stealth Up",
-        "setIndex": 13,
-        "type": "hat"
-    },
-    "Yiga Tights": {
-        "upgrades": [
-            {
-                "Octorok Eyeball": 2
-            },
-            {
-                "Puffshroom": 3,
-                "Fire-breath Lizalfos Tail": 3
-            },
-            {
-                "Ice-breath Lizalfos Tail": 5,
-                "Keese Eyeball": 5
-            }
-        ],
-        "bonus": "Stealth Up",
-        "setIndex": 13,
-        "type": "legs"
-    },
-    "Yiga Armor": {
-        "upgrades": [
-            {
-                "Octorok Eyeball": 2
-            },
-            {
-                "Puffshroom": 3,
-                "Fire-breath Lizalfos Tail": 3
-            },
-            {
-                "Ice-breath Lizalfos Tail": 5,
-                "Keese Eyeball": 5
-            }
-        ],
-        "bonus": "Stealth Up",
-        "setIndex": 13,
-        "type": "chest"
-    },
-    "Snow Boots": {
-        "upgrades": [
-            {
-                "Hightail Lizard": 3
-            },
-            {
-                "Octorok Tentacl": 5,
-                "Swift Carrot": 5
-            },
-            {
-                "Octo Balloon": 5,
-                "Rushroom": 20
-            }
-        ],
-        "bonus": "Snow Speed Up",
-        "type": "legs"
-    },
-    "Vah Ruta Divine Helm": {
-        "upgrades": [
-            {
-                "Zonaite": 5,
-                "Opal": 5
-            },
-            {
-                "Zonaite": 10,
-                "Opal": 5
-            },
-            {
-                "Opal": 15,
-                "Large Zonaite": 5,
-                "Dazzlefruit": 5
-            }
-        ],
-        "bonus": "Swim Speed Up",
-        "setIndex": 14,
-        "type": "hat"
-    },
-    "Sheik's Mask": {
-        "upgrades": [
-            {
-                "Silent Princess": 1
-            },
-            {
-                "Silent Princess": 2,
-                "Star Fragment": 2
-            },
-            {
-                "Silent Princess": 4,
-                "Star Fragment": 3
-            }
-        ],
-        "bonus": "Stealth Up",
-        "type": "hat"
-    },
-    "Fierce Diety Mask": {
-        "upgrades": [
-            {
-                "Hinox Toenail": 5,
-                "Dinraal's Scale": 1
-            },
-            {
-                "Hinox Tooth": 5,
-                "Dinraal's Scale": 1
-            },
-            {
-                "Hinox Guts": 2,
-                "Shard of Dinraal's Fang": 1
-            }
-        ],
-        "bonus": "Attack Up",
-        "setIndex": 15,
-        "type": "hat"
-    },
-    "Fierce Deity Boots": {
-        "upgrades": [
-            {
-                "Hinox Toenail": 5,
-                "Dinraal's Scale": 1
-            },
-            {
-                "Hinox Tooth": 5,
-                "Dinraal's Scale": 1
-            },
-            {
-                "Hinox Guts": 2,
-                "Shard of Dinraal's Fang": 1
-            }
-        ],
-        "bonus": "Attack Up",
-        "setIndex": 15
-    },
-    "Fierce Deity Armor": {
-        "upgrades": [
-            {
-                "Hinox Toenail": 5,
-                "Dinraal's Scale": 1
-            },
-            {
-                "Hinox Tooth": 5,
-                "Dinraal's Scale": 1
-            },
-            {
-                "Hinox Guts": 2,
-                "Shard of Dinraal's Fang": 1
-            }
-        ],
-        "bonus": "Attack Up",
-        "setIndex": 15,
-        "type": "chest"
-    },
-    "Cap of the Hero": {
-        "upgrades": [
-            {
-                "Ruby": 1,
-                "Star Fragment": 1
-            },
-            {
-                "Ruby": 4,
-                "Star Fragment": 1
-            },
-            {
-                "Ruby": 6,
-                "Star Fragment": 1
-            }
-        ],
-        "bonus": "Attack Up",
-        "setIndex": 16,
-        "type": "hat"
-    },
-    "Trousers of the Hero": {
-        "upgrades": [
-            {
-                "Ruby": 1,
-                "Star Fragment": 1
-            },
-            {
-                "Ruby": 4,
-                "Star Fragment": 1
-            },
-            {
-                "Ruby": 6,
-                "Star Fragment": 1
-            }
-        ],
-        "bonus": "Attack Up",
-        "setIndex": 16,
-        "type": "legs"
-    },
-    "Tunic of the Hero": {
-        "upgrades": [
-            {
-                "Ruby": 1,
-                "Star Fragment": 1
-            },
-            {
-                "Ruby": 4,
-                "Star Fragment": 1
-            },
-            {
-                "Ruby": 6,
-                "Star Fragment": 1
-            }
-        ],
-        "bonus": "Attack Up",
-        "setIndex": 16,
-        "type": "chest"
-    },
-    "Miner's Mask": {
-        "upgrades": [
-            {
-                "Brightbloom Seed": 10
-            },
-            {
-                "Brightbloom Seed": 20,
-                "Brightcap": 5
-            },
-            {
-                "Giant Brightbloom Seed": 15,
-                "Deep Firefly": 10,
-                "Glowing Cave Fish": 5
-            }
-        ],
-        "bonus": "Glow",
-        "setIndex": 11,
-        "type": "hat"
-    },
-    "Miner's Trousers": {
-        "upgrades": [
-            {
-                "Brightbloom Seed": 10
-            },
-            {
-                "Brightbloom Seed": 20,
-                "Brightcap": 5
-            },
-            {
-                "Giant Brightbloom Seed": 15,
-                "Deep Firefly": 10,
-                "Glowing Cave Fish": 5
-            }
-        ],
-        "bonus": "Glow",
-        "setIndex": 11,
-        "type": "legs"
-    },
-    "Miner's Top": {
-        "upgrades": [
-            {
-                "Brightbloom Seed": 10
-            },
-            {
-                "Brightbloom Seed": 20,
-                "Brightcap": 5
-            },
-            {
-                "Giant Brightbloom Seed": 15,
-                "Deep Firefly": 10,
-                "Glowing Cave Fish": 5
-            }
-        ],
-        "bonus": "Glow",
-        "setIndex": 11,
-        "type": "chest"
-    },
-    "Radiant Mask": {
-        "upgrades": [
-            {
-                "Luminous Stone": 10,
-                "Bokoblin Guts": 1
-            },
-            {
-                "Luminous Stone": 15,
-                "Moblin Guts": 2
-            },
-            {
-                "Luminous Stone": 20,
-                "Horriblin Guts": 3,
-                "Gibdo Bone": 10
-            }
-        ],
-        "bonus": "Prevents Staal enemies from attacking",
-        "type": "hat"
-    },
-    "Radiant Tights": {
-        "upgrades": [
-            {
-                "Luminous Stone": 10,
-                "Bokoblin Guts": 1
-            },
-            {
-                "Luminous Stone": 15,
-                "Moblin Guts": 2
-            },
-            {
-                "Luminous Stone": 20,
-                "Horriblin Guts": 3,
-                "Gibdo Bone": 10
-            }
-        ],
-        "bonus": "Prevents Staal enemies from attacking",
-        "type": "legs"
-    },
-    "Radiant Shirt": {
-        "upgrades": [
-            {
-                "Luminous Stone": 10,
-                "Bokoblin Guts": 1
-            },
-            {
-                "Luminous Stone": 15,
-                "Moblin Guts": 2
-            },
-            {
-                "Luminous Stone": 20,
-                "Horriblin Guts": 3,
-                "Gibdo Bone": 10
-            }
-        ],
-        "bonus": "Prevents Staal enemies from attacking",
-        "type": "chest"
-    }
+  "Hylian Hood": {
+    "upgrades": [
+      {
+        "Boko Horns": 5
+      },
+      {
+        "Blue Boko Horns": 5,
+        "Boko Fangs": 3
+      },
+      {
+        "Amber": 20,
+        "Boko Guts": 3,
+        "Black Boko Horns": 5
+      },
+      {
+        "Amber": 30,
+        "Boko Guts": 5,
+        "Silver Boko Horns": 5
+      }
+    ],
+    "setIndex": 0,
+    "type": "hat"
+  },
+  "Hylian Trousers": {
+    "upgrades": [
+      {
+        "Boko Horns": 5
+      },
+      {
+        "Blue Boko Horns": 5,
+        "Boko Fangs": 3
+      },
+      {
+        "Amber": 20,
+        "Boko Guts": 3,
+        "Black Boko Horns": 5
+      },
+      {
+        "Amber": 30,
+        "Boko Guts": 5,
+        "Silver Boko Horns": 5
+      }
+    ],
+    "setIndex": 0,
+    "type": "legs"
+  },
+  "Hylian Tunic": {
+    "upgrades": [
+      {
+        "Boko Horns": 5
+      },
+      {
+        "Blue Boko Horns": 5,
+        "Boko Fangs": 3
+      },
+      {
+        "Amber": 20,
+        "Boko Guts": 3,
+        "Black Boko Horns": 5
+      },
+      {
+        "Amber": 30,
+        "Boko Guts": 5,
+        "Silver Boko Horns": 5
+      }
+    ],
+    "setIndex": 0,
+    "type": "chest"
+  },
+  "Cap of the Wild": {
+    "upgrades": [
+      {
+        "Acorn": 10,
+        "Farosh Scale": 2
+      },
+      {
+        "Courser Bee Honey": 5,
+        "Farosh Claw": 2
+      },
+      {
+        "Energetic Rhino Beetle": 3,
+        "Farosh Fang": 2,
+        "Farosh Spike": 5
+      },
+      {
+        "Farosh Horn": 2,
+        "Star Fragment": 3,
+        "Farosh Spike": 10
+      }
+    ],
+    "type": "hat",
+    "setIndex": 19
+  },
+  "Trouser of the Wild": {
+    "upgrades": [
+      {
+        "Acorn": 10,
+        "Dinraal Scale": 2
+      },
+      {
+        "Courser Bee Honey": 5,
+        "Dinraal Claw": 2
+      },
+      {
+        "Energetic Rhino Beetle": 3,
+        "Dinraal Fang": 2,
+        "Dinraal Spike": 5
+      },
+      {
+        "Dinraal Horn": 2,
+        "Star Fragment": 3,
+        "Dinraal Spike": 10
+      }
+    ],
+    "type": "legs",
+    "setIndex": 19
+  },
+  "Tunic of the Wild": {
+    "upgrades": [
+      {
+        "Acorn": 10,
+        "Naydra Scale": 2
+      },
+      {
+        "Courser Bee Honey": 5,
+        "Naydra Claw": 2
+      },
+      {
+        "Energetic Rhino Beetle": 3,
+        "Naydra Fang": 2,
+        "Naydra Spike": 5
+      },
+      {
+        "Naydra Horn": 2,
+        "Star Fragment": 3,
+        "Naydra Spike": 10
+      }
+    ],
+    "type": "chest",
+    "setIndex": 19
+  },
+  "Soldier's Helm": {
+    "upgrades": [
+      {
+        "Chuchu Jelly": 5,
+        "Boko Guts": 3
+      },
+      {
+        "Keese Eyeball": 5,
+        "Moblin Guts": 3
+      },
+      {
+        "Lizalfos Tail": 3,
+        "Hinox Guts": 3,
+        "Flint": 30
+      },
+      {
+        "Lynel Hoof": 5,
+        "Lynel Guts": 5,
+        "Amber": 30
+      }
+    ],
+    "type": "hat",
+    "setIndex": 1
+  },
+  "Soldier's Greaves": {
+    "upgrades": [
+      {
+        "Chuchu Jelly": 5,
+        "Boko Guts": 3
+      },
+      {
+        "Keese Eyeball": 5,
+        "Moblin Guts": 3
+      },
+      {
+        "Lizalfos Tail": 3,
+        "Hinox Guts": 3,
+        "Flint": 30
+      },
+      {
+        "Lynel Hoof": 5,
+        "Lynel Guts": 5,
+        "Amber": 30
+      }
+    ],
+    "type": "legs",
+    "setIndex": 1
+  },
+  "Soldier's Armor": {
+    "upgrades": [
+      {
+        "Chuchu Jelly": 5,
+        "Boko Guts": 3
+      },
+      {
+        "Keese Eyeball": 5,
+        "Moblin Guts": 3
+      },
+      {
+        "Lizalfos Tail": 3,
+        "Hinox Guts": 3,
+        "Flint": 30
+      },
+      {
+        "Lynel Hoof": 5,
+        "Lynel Guts": 5,
+        "Amber": 30
+      }
+    ],
+    "type": "chest",
+    "setIndex": 1
+  },
+  "Mask of Awakening": {
+    "upgrades": [
+      {
+        "Luminous Stone": 10,
+        "Star Fragment": 1
+      },
+      {
+        "Luminous Stone": 15,
+        "Star Fragment": 1
+      },
+      {
+        "Luminous Stone": 20,
+        "Star Fragment": 1
+      },
+      {
+        "Luminous Stone": 30,
+        "Star Fragment": 1
+      }
+    ],
+    "type": "hat",
+    "setIndex": 22
+  },
+  "Trousers of Awakening": {
+    "upgrades": [
+      {
+        "Luminous Stone": 10,
+        "Star Fragment": 1
+      },
+      {
+        "Luminous Stone": 15,
+        "Star Fragment": 1
+      },
+      {
+        "Luminous Stone": 20,
+        "Star Fragment": 1
+      },
+      {
+        "Luminous Stone": 30,
+        "Star Fragment": 1
+      }
+    ],
+    "type": "legs",
+    "setIndex": 22
+  },
+  "Tunic of Awakening": {
+    "upgrades": [
+      {
+        "Luminous Stone": 10,
+        "Star Fragment": 1
+      },
+      {
+        "Luminous Stone": 15,
+        "Star Fragment": 1
+      },
+      {
+        "Luminous Stone": 20,
+        "Star Fragment": 1
+      },
+      {
+        "Luminous Stone": 30,
+        "Star Fragment": 1
+      }
+    ],
+    "type": "chest",
+    "setIndex": 22
+  },
+  "Champion's Tunic": {
+    "upgrades": [
+      {
+        "Silent Princess": 3,
+        "Light Dragon's Scale": 2
+      },
+      {
+        "Silent Princess": 3,
+        "Sundelion": 10,
+        "Light Dragon Claw": 2
+      },
+      {
+        "Silent Princess": 5,
+        "Sundelion": 15,
+        "Light Dragon Fang": 2
+      },
+      {
+        "Silent Princess": 10,
+        "Sundelion": 20,
+        "Light Dragon Horn": 2
+      }
+    ],
+    "type": "chest",
+    "setIndex": 29
+  },
+  "Tunic of Memories": {
+    "upgrades": [
+      {
+        "Silent Princess": 3,
+        "Light Dragon's Scale": 1
+      },
+      {
+        "Silent Princess": 3,
+        "Light Dragon's Talon": 1,
+        "Farosh's Horn": 2
+      },
+      {
+        "Silent Princess": 5,
+        "Shard of Light Dragon's Fang": 1,
+        "Naydra's Horn": 2
+      }
+    ],
+    "type": "chest"
+  },
+  "Royal Guard Cap": {
+    "upgrades": [
+      {
+        "Boko Guts": 3,
+        "Boss Boko Horn": 3
+      },
+      {
+        "Keese Eyeball": 5,
+        "Moblin Guts": 3
+      },
+      {
+        "Lizalfos Tail": 3,
+        "Hinox Guts": 3,
+        "Flint": 30
+      },
+      {
+        "Silver Boss Bokoblin Horn": 3,
+        "Molduga Guts": 3,
+        "Gleeok Guts": 3
+      }
+    ],
+    "type": "hat",
+    "setIndex": 21
+  },
+  "Royal Guard Boots": {
+    "upgrades": [
+      {
+        "Boko Guts": 3,
+        "Boss Boko Horn": 3
+      },
+      {
+        "Keese Eyeball": 5,
+        "Moblin Guts": 3
+      },
+      {
+        "Lizalfos Tail": 3,
+        "Hinox Guts": 3,
+        "Flint": 30
+      },
+      {
+        "Silver Boss Bokoblin Horn": 3,
+        "Molduga Guts": 3,
+        "Gleeok Guts": 3
+      }
+    ],
+    "type": "legs",
+    "setIndex": 21
+  },
+  "Royal Guard Uniform": {
+    "upgrades": [
+      {
+        "Boko Guts": 3,
+        "Boss Boko Horn": 3
+      },
+      {
+        "Keese Eyeball": 5,
+        "Moblin Guts": 3
+      },
+      {
+        "Lizalfos Tail": 3,
+        "Hinox Guts": 3,
+        "Flint": 30
+      },
+      {
+        "Silver Boss Bokoblin Horn": 3,
+        "Molduga Guts": 3,
+        "Gleeok Guts": 3
+      }
+    ],
+    "type": "chest",
+    "setIndex": 21
+  },
+  "Cap of Time": {
+    "upgrades": [
+      {
+        "Amber": 10,
+        "Star Fragment": 1
+      },
+      {
+        "Amber": 20,
+        "Star Fragment": 1
+      },
+      {
+        "Amber": 30,
+        "Star Fragment": 1
+      },
+      {
+        "Amber": 50,
+        "Star Fragment": 1
+      }
+    ],
+    "type": "hat",
+    "setIndex": 23
+  },
+  "Trousers of Time": {
+    "upgrades": [
+      {
+        "Amber": 10,
+        "Star Fragment": 1
+      },
+      {
+        "Amber": 20,
+        "Star Fragment": 1
+      },
+      {
+        "Amber": 30,
+        "Star Fragment": 1
+      },
+      {
+        "Amber": 50,
+        "Star Fragment": 1
+      }
+    ],
+    "type": "legs",
+    "setIndex": 23
+  },
+  "Tunic of Time": {
+    "upgrades": [
+      {
+        "Amber": 10,
+        "Star Fragment": 1
+      },
+      {
+        "Amber": 20,
+        "Star Fragment": 1
+      },
+      {
+        "Amber": 30,
+        "Star Fragment": 1
+      },
+      {
+        "Amber": 50,
+        "Star Fragment": 1
+      }
+    ],
+    "type": "chest",
+    "setIndex": 23
+  },
+  "Cap of the Wind": {
+    "upgrades": [
+      {
+        "Opal": 5,
+        "Star Fragment": 1
+      },
+      {
+        "Opal": 10,
+        "Star Fragment": 1
+      },
+      {
+        "Opal": 15,
+        "Star Fragment": 1
+      },
+      {
+        "Opal": 25,
+        "Star Fragment": 1
+      }
+    ],
+    "setIndex": 24,
+    "type": "hat"
+  },
+  "Trousers of the Wind": {
+    "upgrades": [
+      {
+        "Opal": 5,
+        "Star Fragment": 1
+      },
+      {
+        "Opal": 10,
+        "Star Fragment": 1
+      },
+      {
+        "Opal": 15,
+        "Star Fragment": 1
+      },
+      {
+        "Opal": 25,
+        "Star Fragment": 1
+      }
+    ],
+    "setIndex": 24,
+    "type": "legs"
+  },
+  "Tunic of the Wind": {
+    "upgrades": [
+      {
+        "Opal": 5,
+        "Star Fragment": 1
+      },
+      {
+        "Opal": 10,
+        "Star Fragment": 1
+      },
+      {
+        "Opal": 15,
+        "Star Fragment": 1
+      },
+      {
+        "Opal": 25,
+        "Star Fragment": 1
+      }
+    ],
+    "setIndex": 24,
+    "type": "chest"
+  },
+  "Cap of Twilight": {
+    "upgrades": [
+      {
+        "Topaz": 1,
+        "Star Fragment": 1
+      },
+      {
+        "Topaz": 4,
+        "Star Fragment": 1
+      },
+      {
+        "Topaz": 6,
+        "Star Fragment": 1
+      },
+      {
+        "Topaz": 10,
+        "Star Fragment": 1
+      }
+    ],
+    "type": "hat",
+    "setIndex": 25
+  },
+  "Trousers of Twilight": {
+    "upgrades": [
+      {
+        "Topaz": 1,
+        "Star Fragment": 1
+      },
+      {
+        "Topaz": 4,
+        "Star Fragment": 1
+      },
+      {
+        "Topaz": 6,
+        "Star Fragment": 1
+      },
+      {
+        "Topaz": 10,
+        "Star Fragment": 1
+      }
+    ],
+    "type": "legs",
+    "setIndex": 25
+  },
+  "Tunic of Twilight": {
+    "upgrades": [
+      {
+        "Topaz": 1,
+        "Star Fragment": 1
+      },
+      {
+        "Topaz": 4,
+        "Star Fragment": 1
+      },
+      {
+        "Topaz": 6,
+        "Star Fragment": 1
+      },
+      {
+        "Topaz": 10,
+        "Star Fragment": 1
+      }
+    ],
+    "type": "chest",
+    "setIndex": 25
+  },
+  "Cap of the Sky": {
+    "upgrades": [
+      {
+        "Sapphire": 1,
+        "Star Fragment": 1
+      },
+      {
+        "Sapphire": 4,
+        "Star Fragment": 1
+      },
+      {
+        "Sapphire": 6,
+        "Star Fragment": 1
+      },
+      {
+        "Sapphire": 10,
+        "Star Fragment": 1
+      }
+    ],
+    "setIndex": 26,
+    "type": "hat"
+  },
+  "Trousers of the Sky": {
+    "upgrades": [
+      {
+        "Sapphire": 1,
+        "Star Fragment": 1
+      },
+      {
+        "Sapphire": 4,
+        "Star Fragment": 1
+      },
+      {
+        "Sapphire": 6,
+        "Star Fragment": 1
+      },
+      {
+        "Sapphire": 10,
+        "Star Fragment": 1
+      }
+    ],
+    "setIndex": 26,
+    "type": "legs"
+  },
+  "Tunic of the Sky": {
+    "upgrades": [
+      {
+        "Sapphire": 1,
+        "Star Fragment": 1
+      },
+      {
+        "Sapphire": 4,
+        "Star Fragment": 1
+      },
+      {
+        "Sapphire": 6,
+        "Star Fragment": 1
+      },
+      {
+        "Sapphire": 10,
+        "Star Fragment": 1
+      }
+    ],
+    "setIndex": 26,
+    "type": "chest"
+  },
+  "Desert Voe Headband": {
+    "upgrades": [
+      {
+        "White Chuchu Jelly": 3
+      },
+      {
+        "White Chuchu Jelly": 5,
+        "Cool Safflina": 3
+      },
+      {
+        "Ice Keese Wing": 5,
+        "Ice-Breath Lizalfos Tail": 3,
+        "Chillshroom": 5
+      },
+      {
+        "Ice-Breath Lizalfos Horn": 5,
+        "Ice-Breath Lizalfos Tail": 10,
+        "Sapphire": 5
+      }
+    ],
+    "bonus": "Heat Resistance",
+    "setIndex": 5,
+    "type": "hat"
+  },
+  "Desert Voe Trousers": {
+    "upgrades": [
+      {
+        "White Chuchu Jelly": 3
+      },
+      {
+        "White Chuchu Jelly": 5,
+        "Cool Safflina": 3
+      },
+      {
+        "Ice Keese Wing": 5,
+        "Ice-Breath Lizalfos Tail": 3,
+        "Chillshroom": 5
+      },
+      {
+        "Ice-Breath Lizalfos Horn": 5,
+        "Ice-Breath Lizalfos Tail": 10,
+        "Sapphire": 5
+      }
+    ],
+    "bonus": "Heat Resistance",
+    "setIndex": 5,
+    "type": "legs"
+  },
+  "Desert Voe Spaulder": {
+    "upgrades": [
+      {
+        "White Chuchu Jelly": 3
+      },
+      {
+        "White Chuchu Jelly": 5,
+        "Cool Safflina": 3
+      },
+      {
+        "Ice Keese Wing": 5,
+        "Ice-Breath Lizalfos Tail": 3,
+        "Chillshroom": 5
+      },
+      {
+        "Ice-Breath Lizalfos Horn": 5,
+        "Ice-Breath Lizalfos Tail": 10,
+        "Sapphire": 5
+      }
+    ],
+    "bonus": "Heat Resistance",
+    "setIndex": 5,
+    "type": "chest"
+  },
+  "Snowquill Headdress": {
+    "upgrades": [
+      {
+        "Red Chuchu Jelly": 3
+      },
+      {
+        "Red Chuchu Jelly": 5,
+        "Warm Safflina": 3
+      },
+      {
+        "Fire Keese Wing": 5,
+        "Fire-Breath Lizalfos Tail": 3,
+        "Sunshroom": 5
+      },
+      {
+        "Fire-Breath Lizalfos Horn": 5,
+        "Fire-Breath Lizalfos Tail": 10,
+        "Ruby": 5
+      }
+    ],
+    "bonus": "Cold Resistance",
+    "setIndex": 2,
+    "type": "hat"
+  },
+  "Snowquill Trousers": {
+    "upgrades": [
+      {
+        "Red Chuchu Jelly": 3
+      },
+      {
+        "Red Chuchu Jelly": 5,
+        "Warm Safflina": 3
+      },
+      {
+        "Fire Keese Wing": 5,
+        "Fire-Breath Lizalfos Tail": 3,
+        "Sunshroom": 5
+      },
+      {
+        "Fire-Breath Lizalfos Horn": 5,
+        "Fire-Breath Lizalfos Tail": 10,
+        "Ruby": 5
+      }
+    ],
+    "bonus": "Cold Resistance",
+    "setIndex": 2,
+    "type": "legs"
+  },
+  "Snowquill Tunic": {
+    "upgrades": [
+      {
+        "Red Chuchu Jelly": 3
+      },
+      {
+        "Red Chuchu Jelly": 5,
+        "Warm Safflina": 3
+      },
+      {
+        "Fire Keese Wing": 5,
+        "Fire-Breath Lizalfos Tail": 3,
+        "Sunshroom": 5
+      },
+      {
+        "Fire-Breath Lizalfos Horn": 5,
+        "Fire-Breath Lizalfos Tail": 10,
+        "Ruby": 5
+      }
+    ],
+    "bonus": "Cold Resistance",
+    "setIndex": 2,
+    "type": "chest"
+  },
+  "Flamebreaker Helm": {
+    "upgrades": [
+      {
+        "Moblin Horn": 3
+      },
+      {
+        "Moblin Fang": 5,
+        "Fireproof Lizard": 5
+      },
+      {
+        "Blue Moblin Horn": 5,
+        "Smotherwing Butterfly": 3,
+        "Flint": 15
+      },
+      {
+        "Black Moblin Horn": 5,
+        "Smotherwing Butterfly": 5,
+        "Flint": 30
+      }
+    ],
+    "bonus": "Flame Guard",
+    "setIndex": 3,
+    "type": "hat"
+  },
+  "Flamebreaker Boots": {
+    "upgrades": [
+      {
+        "Moblin Horn": 3
+      },
+      {
+        "Moblin Fang": 5,
+        "Fireproof Lizard": 5
+      },
+      {
+        "Blue Moblin Horn": 5,
+        "Smotherwing Butterfly": 3,
+        "Flint": 15
+      },
+      {
+        "Black Moblin Horn": 5,
+        "Smotherwing Butterfly": 5,
+        "Flint": 30
+      }
+    ],
+    "bonus": "Flame Guard",
+    "setIndex": 3,
+    "type": "legs"
+  },
+  "Flamebreaker Armor": {
+    "upgrades": [
+      {
+        "Moblin Horn": 3
+      },
+      {
+        "Moblin Fang": 5,
+        "Fireproof Lizard": 5
+      },
+      {
+        "Blue Moblin Horn": 5,
+        "Smotherwing Butterfly": 3,
+        "Flint": 15
+      },
+      {
+        "Black Moblin Horn": 5,
+        "Smotherwing Butterfly": 5,
+        "Flint": 30
+      }
+    ],
+    "bonus": "Flame Guard",
+    "setIndex": 3,
+    "type": "chest"
+  },
+  "Ruby Circlet": {
+    "upgrades": [
+      {
+        "Ruby": 2,
+        "Flint": 3
+      },
+      {
+        "Ruby": 4,
+        "Flint": 5
+      },
+      {
+        "Ruby": 6,
+        "Star Fragment": 1
+      },
+      {
+        "Ruby": 10,
+        "Star Fragment": 2
+      }
+    ],
+    "bonus": "Cold Resistance",
+    "type": "hat",
+    "setIndex": 31
+  },
+  "Sapphire Circlet": {
+    "upgrades": [
+      {
+        "Sapphire": 2,
+        "Flint": 3
+      },
+      {
+        "Sapphire": 4,
+        "Flint": 5
+      },
+      {
+        "Sapphire": 6,
+        "Star Fragment": 1
+      },
+      {
+        "Sapphire": 10,
+        "Star Fragment": 2
+      }
+    ],
+    "bonus": "Heat Resistance",
+    "setIndex": 32
+  },
+  "Topaz Earrings": {
+    "upgrades": [
+      {
+        "Topaz": 2,
+        "Flint": 3
+      },
+      {
+        "Topaz": 4,
+        "Flint": 5
+      },
+      {
+        "Topaz": 6,
+        "Star Fragment": 1
+      },
+      {
+        "Topaz": 10,
+        "Star Fragment": 2
+      }
+    ],
+    "bonus": "Shock Resistance",
+    "type": "hat",
+    "setIndex": 33
+  },
+  "Rubber Helm": {
+    "upgrades": [
+      {
+        "Electric Lizalfos Horn": 1,
+        "Yellow Chuchu Jelly": 3
+      },
+      {
+        "Yellow Chuchu Jelly": 8,
+        "Voltfruit": 5
+      },
+      {
+        "Zapshroom": 5,
+        "Electricc Lizalfos Tail": 5,
+        "Electric Safflina": 8
+      },
+      {
+        "Electric Lizalfos Horn": 5,
+        "Topaz": 5,
+        "Electric Lizalfos Tail": 8
+      }
+    ],
+    "bonus": "Shock Resistance",
+    "type": "hat",
+    "setIndex": 20
+  },
+  "Rubber Tights": {
+    "upgrades": [
+      {
+        "Electric Lizalfos Horn": 1,
+        "Yellow Chuchu Jelly": 3
+      },
+      {
+        "Yellow Chuchu Jelly": 8,
+        "Voltfruit": 5
+      },
+      {
+        "Zapshroom": 5,
+        "Electricc Lizalfos Tail": 5,
+        "Electric Safflina": 8
+      },
+      {
+        "Electric Lizalfos Horn": 5,
+        "Topaz": 5,
+        "Electric Lizalfos Tail": 8
+      }
+    ],
+    "bonus": "Shock Resistance",
+    "type": "legs",
+    "setIndex": 20
+  },
+  "Rubber Armor": {
+    "upgrades": [
+      {
+        "Electric Lizalfos Horn": 1,
+        "Yellow Chuchu Jelly": 3
+      },
+      {
+        "Yellow Chuchu Jelly": 8,
+        "Voltfruit": 5
+      },
+      {
+        "Zapshroom": 5,
+        "Electricc Lizalfos Tail": 5,
+        "Electric Safflina": 8
+      },
+      {
+        "Electric Lizalfos Horn": 5,
+        "Topaz": 5,
+        "Electric Lizalfos Tail": 8
+      }
+    ],
+    "bonus": "Shock Resistance",
+    "type": "chest",
+    "setIndex": 20
+  },
+  "Froggy Hood": {
+    "upgrades": [
+      {
+        "Sticky Lizard": 3
+      },
+      {
+        "Horriblin Horn": 5,
+        "Sticky Lizard": 5
+      },
+      {
+        "Blue Horriblin Horn": 5,
+        "Sticky Frog": 5
+      },
+      {
+        "Black Horriblin Horn": 5,
+        "Horriblin Guts": 10,
+        "Opal": 10
+      }
+    ],
+    "bonus": "Slip Resistance",
+    "setIndex": 10,
+    "type": "hat"
+  },
+  "Froggy Leggings": {
+    "upgrades": [
+      {
+        "Sticky Lizard": 3
+      },
+      {
+        "Horriblin Horn": 5,
+        "Sticky Lizard": 5
+      },
+      {
+        "Blue Horriblin Horn": 5,
+        "Sticky Frog": 5
+      },
+      {
+        "Black Horriblin Horn": 5,
+        "Horriblin Guts": 10,
+        "Opal": 10
+      }
+    ],
+    "bonus": "Slip Resistance",
+    "setIndex": 10,
+    "type": "legs"
+  },
+  "Froggy Sleeve": {
+    "upgrades": [
+      {
+        "Sticky Lizard": 3
+      },
+      {
+        "Horriblin Horn": 5,
+        "Sticky Lizard": 5
+      },
+      {
+        "Blue Horriblin Horn": 5,
+        "Sticky Frog": 5
+      },
+      {
+        "Black Horriblin Horn": 5,
+        "Horriblin Guts": 10,
+        "Opal": 10
+      }
+    ],
+    "bonus": "Slip Resistance",
+    "setIndex": 10,
+    "type": "chest"
+  },
+  "Hood of the Depths": {
+    "upgrades": [
+      {
+        "Deep Firefly": 3
+      },
+      {
+        "Dark Clump": 5,
+        "Frox Fang": 3
+      },
+      {
+        "Zonaite": 20,
+        "Frox Fingernail": 3,
+        "Obsidian Frox Fang": 3
+      },
+      {
+        "Blue-White Frox Fang": 5,
+        "Large Zonaite": 10,
+        "Frox Guts": 3
+      }
+    ],
+    "bonus": "Gloom Resistance",
+    "setIndex": 12,
+    "type": "hat"
+  },
+  "Gaiters of the Depths": {
+    "upgrades": [
+      {
+        "Deep Firefly": 3
+      },
+      {
+        "Dark Clump": 5,
+        "Frox Fang": 3
+      },
+      {
+        "Zonaite": 20,
+        "Frox Fingernail": 3,
+        "Obsidian Frox Fang": 3
+      },
+      {
+        "Blue-White Frox Fang": 5,
+        "Large Zonaite": 10,
+        "Frox Guts": 3
+      }
+    ],
+    "bonus": "Gloom Resistance",
+    "setIndex": 12,
+    "type": "legs"
+  },
+  "Tunic of the Depths": {
+    "upgrades": [
+      {
+        "Deep Firefly": 3
+      },
+      {
+        "Dark Clump": 5,
+        "Frox Fang": 3
+      },
+      {
+        "Zonaite": 20,
+        "Frox Fingernail": 3,
+        "Obsidian Frox Fang": 3
+      },
+      {
+        "Blue-White Frox Fang": 5,
+        "Large Zonaite": 10,
+        "Frox Guts": 3
+      }
+    ],
+    "bonus": "Gloom Resistance",
+    "setIndex": 12,
+    "type": "chest"
+  },
+  "Vah Medoh Divine Helm": {
+    "upgrades": [
+      {
+        "Sapphire": 1,
+        "Zonaite": 5
+      },
+      {
+        "Sapphire": 4,
+        "Zonaite": 10
+      },
+      {
+        "Sapphire": 6,
+        "Large Zonaite": 5,
+        "Dazzlefruit": 5
+      },
+      {
+        "Sapphire": 10,
+        "Large Zonaite": 10,
+        "Dazzlefruit": 10
+      }
+    ],
+    "bonus": "Cold Resistance",
+    "setIndex": 40,
+    "type": "hat"
+  },
+  "Vah Rudania Divine Helm": {
+    "upgrades": [
+      {
+        "Ruby": 1,
+        "Zonaite": 5
+      },
+      {
+        "Ruby": 4,
+        "Zonaite": 10
+      },
+      {
+        "Ruby": 6,
+        "Large Zonaite": 5,
+        "Dazzlefruit": 5
+      },
+      {
+        "Ruby": 10,
+        "Large Zonaite": 10,
+        "Dazzlefruit": 10
+      }
+    ],
+    "bonus": "Flame Guard",
+    "setIndex": 39,
+    "type": "hat"
+  },
+  "Vah Naboris Divine Helm": {
+    "upgrades": [
+      {
+        "Topaz": 1,
+        "Zonaite": 5
+      },
+      {
+        "Topaz": 4,
+        "Zonaite": 10
+      },
+      {
+        "Topaz": 6,
+        "Large Zonaite": 5,
+        "Dazzlefruit": 5
+      },
+      {
+        "Topaz": 10,
+        "Large Zonaite": 10,
+        "Dazzlefruit": 10
+      }
+    ],
+    "bonus": "Shock Resistance",
+    "setIndex": 38,
+    "type": "hat"
+  },
+  "Zora Helm": {
+    "upgrades": [
+      {
+        "Lizalfos Horn": 3
+      },
+      {
+        "Lizalfos Talon": 5,
+        "Hyrule Bass": 5
+      },
+      {
+        "Blue LIzalfos Horn": 5,
+        "Lizalfos Tail": 3,
+        "Hearty Bass": 3
+      },
+      {
+        "Black Lizalfos Horn": 5,
+        "Blue Lizalfos Tail": 5,
+        "Opal": 20
+      }
+    ],
+    "bonus": "Swim Speed Up",
+    "type": "hat",
+    "setIndex": 4
+  },
+  "Zora Greaves": {
+    "upgrades": [
+      {
+        "Lizalfos Horn": 3
+      },
+      {
+        "Lizalfos Talon": 5,
+        "Hyrule Bass": 5
+      },
+      {
+        "Blue LIzalfos Horn": 5,
+        "Lizalfos Tail": 3,
+        "Hearty Bass": 3
+      },
+      {
+        "Black Lizalfos Horn": 5,
+        "Blue Lizalfos Tail": 5,
+        "Opal": 20
+      }
+    ],
+    "bonus": "Swim Speed Up",
+    "type": "legs",
+    "setIndex": 4
+  },
+  "Zora Armor": {
+    "upgrades": [
+      {
+        "Lizalfos Horn": 3
+      },
+      {
+        "Lizalfos Talon": 5,
+        "Hyrule Bass": 5
+      },
+      {
+        "Blue LIzalfos Horn": 5,
+        "Lizalfos Tail": 3,
+        "Hearty Bass": 3
+      },
+      {
+        "Black Lizalfos Horn": 5,
+        "Blue Lizalfos Tail": 5,
+        "Opal": 20
+      }
+    ],
+    "bonus": "Swim Speed Up",
+    "type": "chest",
+    "setIndex": 4
+  },
+  "Stealth Mask": {
+    "upgrades": [
+      {
+        "Blue NIghtshade": 3
+      },
+      {
+        "Sunset Firefly": 5,
+        "Blue Nightshade": 5
+      },
+      {
+        "Silent Shroom": 8,
+        "Sneaky River Snail": 5
+      },
+      {
+        "Stealthfin Trout": 10,
+        "Silent Princess": 5,
+        "Sundelion": 10
+      }
+    ],
+    "bonus": "Stealth Up",
+    "setIndex": 6,
+    "type": "hat"
+  },
+  "Stealth Tights": {
+    "upgrades": [
+      {
+        "Blue NIghtshade": 3
+      },
+      {
+        "Sunset Firefly": 5,
+        "Blue Nightshade": 5
+      },
+      {
+        "Silent Shroom": 8,
+        "Sneaky River Snail": 5
+      },
+      {
+        "Stealthfin Trout": 10,
+        "Silent Princess": 5,
+        "Sundelion": 10
+      }
+    ],
+    "bonus": "Stealth Up",
+    "setIndex": 6,
+    "type": "legs"
+  },
+  "Stealth Chest Guard": {
+    "upgrades": [
+      {
+        "Blue NIghtshade": 3
+      },
+      {
+        "Sunset Firefly": 5,
+        "Blue Nightshade": 5
+      },
+      {
+        "Silent Shroom": 8,
+        "Sneaky River Snail": 5
+      },
+      {
+        "Stealthfin Trout": 10,
+        "Silent Princess": 5,
+        "Sundelion": 10
+      }
+    ],
+    "bonus": "Stealth Up",
+    "setIndex": 6,
+    "type": "chest"
+  },
+  "Climbing Bandanna": {
+    "upgrades": [
+      {
+        "Keese Wing": 3,
+        "Rushroom": 3
+      },
+      {
+        "Electric Keese Wing": 5,
+        "Hightail Lizard": 5
+      },
+      {
+        "Hot-Footed Frog": 10,
+        "Ice Keese Wing": 8
+      },
+      {
+        "Swift Violet": 20,
+        "Fire Keese Wing": 10
+      }
+    ],
+    "bonus": "Climb Speed Up",
+    "type": "hat",
+    "setIndex": 7
+  },
+  "Climbing Boots": {
+    "upgrades": [
+      {
+        "Keese Wing": 3,
+        "Rushroom": 3
+      },
+      {
+        "Electric Keese Wing": 5,
+        "Hightail Lizard": 5
+      },
+      {
+        "Hot-Footed Frog": 10,
+        "Ice Keese Wing": 8
+      },
+      {
+        "Swift Violet": 20,
+        "Fire Keese Wing": 10
+      }
+    ],
+    "bonus": "Climb Speed Up",
+    "type": "legs",
+    "setIndex": 7
+  },
+  "Climbing Gear": {
+    "upgrades": [
+      {
+        "Keese Wing": 3,
+        "Rushroom": 3
+      },
+      {
+        "Electric Keese Wing": 5,
+        "Hightail Lizard": 5
+      },
+      {
+        "Hot-Footed Frog": 10,
+        "Ice Keese Wing": 8
+      },
+      {
+        "Swift Violet": 20,
+        "Fire Keese Wing": 10
+      }
+    ],
+    "bonus": "Climb Speed Up",
+    "type": "chest",
+    "setIndex": 7
+  },
+  "Diamond Circlet": {
+    "upgrades": [
+      {
+        "Diamond": 2,
+        "Flint": 3
+      },
+      {
+        "Diamond": 3,
+        "Flint": 5
+      },
+      {
+        "Diamond": 5,
+        "Star Fragment": 1
+      },
+      {
+        "Diamond": 8,
+        "Star Fragment": 2
+      }
+    ],
+    "bonus": "Attack Up",
+    "type": "hat",
+    "setIndex": 30
+  },
+  "Opal Earrings": {
+    "upgrades": [
+      {
+        "Opal": 6,
+        "Flint": 5
+      },
+      {
+        "Opal": 12,
+        "Flint": 10
+      },
+      {
+        "Opal": 18,
+        "Flint": 15
+      },
+      {
+        "Opal": 30,
+        "Flint": 25
+      }
+    ],
+    "bonus": "Swim Speed Up",
+    "type": "hat",
+    "setIndex": 34
+  },
+  "Amber Earrings": {
+    "upgrades": [
+      {
+        "Amber": 10,
+        "Flint": 5
+      },
+      {
+        "Amber": 20,
+        "Flint": 10
+      },
+      {
+        "Amber": 35,
+        "Flint": 15
+      },
+      {
+        "Amber": 60,
+        "Flint": 25
+      }
+    ],
+    "type": "hat",
+    "setIndex": 35
+  },
+  "Barbarian Helm": {
+    "upgrades": [
+      {
+        "Mighty Thistle": 3
+      },
+      {
+        "Razorshroom": 5,
+        "Lynel Saber Horn": 2,
+        "Lynel Mace Horn": 2
+      },
+      {
+        "Blue-Maned Lynel Saber Horn": 3,
+        "Blue-Maned Lynel Mace Horn": 3,
+        "Razorclaw Crab": 3
+      },
+      {
+        "White-Maned Lynel Saber Horn": 3,
+        "White-Maned Lynel Mace Horn": 3,
+        "Bladed Rhino Beetle": 3
+      }
+    ],
+    "bonus": "Attack Up",
+    "setIndex": 8,
+    "type": "hat"
+  },
+  "Barbarian Leg Wraps": {
+    "upgrades": [
+      {
+        "Mighty Thistle": 3
+      },
+      {
+        "Razorshroom": 5,
+        "Lynel Saber Horn": 2,
+        "Lynel Mace Horn": 2
+      },
+      {
+        "Blue-Maned Lynel Saber Horn": 3,
+        "Blue-Maned Lynel Mace Horn": 3,
+        "Razorclaw Crab": 3
+      },
+      {
+        "White-Maned Lynel Saber Horn": 3,
+        "White-Maned Lynel Mace Horn": 3,
+        "Bladed Rhino Beetle": 3
+      }
+    ],
+    "bonus": "Attack Up",
+    "setIndex": 8,
+    "type": "legs"
+  },
+  "Barbarian Armor": {
+    "upgrades": [
+      {
+        "Mighty Thistle": 3
+      },
+      {
+        "Razorshroom": 5,
+        "Lynel Saber Horn": 2,
+        "Lynel Mace Horn": 2
+      },
+      {
+        "Blue-Maned Lynel Saber Horn": 3,
+        "Blue-Maned Lynel Mace Horn": 3,
+        "Razorclaw Crab": 3
+      },
+      {
+        "White-Maned Lynel Saber Horn": 3,
+        "White-Maned Lynel Mace Horn": 3,
+        "Bladed Rhino Beetle": 3
+      }
+    ],
+    "bonus": "Attack Up",
+    "setIndex": 8,
+    "type": "chest"
+  },
+  "Sand Boots": {
+    "upgrades": [
+      {
+        "Hightail Lizard": 3
+      },
+      {
+        "Gibdo Bone": 20,
+        "Swift Carrot": 5
+      },
+      {
+        "Gibdo Guts": 5,
+        "Rushroom": 10,
+        "Molduga Fin": 5
+      },
+      {
+        "Molduga Guts": 5,
+        "Swift Violet": 10,
+        "Hearty Lizard": 5
+      }
+    ],
+    "bonus": "Sand Speed Up",
+    "type": "legs",
+    "setIndex": 36
+  },
+  "Glide Mask": {
+    "upgrades": [
+      {
+        "Keese WIng": 3
+      },
+      {
+        "Aerocuda Eye": 6,
+        "Keese Wing": 5
+      },
+      {
+        "Aerocuda Wing": 6,
+        "Aerocuda Eyeball": 8
+      },
+      {
+        "Gleeok WIng": 12,
+        "Aerocuda Wing": 10,
+        "Gibdo Wing": 8
+      }
+    ],
+    "bonus": "Skydive Mobility Up",
+    "setIndex": 11,
+    "type": "hat"
+  },
+  "Glide Tights": {
+    "upgrades": [
+      {
+        "Keese WIng": 3
+      },
+      {
+        "Aerocuda Eye": 6,
+        "Keese Wing": 5
+      },
+      {
+        "Aerocuda Wing": 6,
+        "Aerocuda Eyeball": 8
+      },
+      {
+        "Gleeok WIng": 12,
+        "Aerocuda Wing": 10,
+        "Gibdo Wing": 8
+      }
+    ],
+    "bonus": "Skydive Mobility Up",
+    "setIndex": 11,
+    "type": "legs"
+  },
+  "Glide Shirt": {
+    "upgrades": [
+      {
+        "Keese WIng": 3
+      },
+      {
+        "Aerocuda Eye": 6,
+        "Keese Wing": 5
+      },
+      {
+        "Aerocuda Wing": 6,
+        "Aerocuda Eyeball": 8
+      },
+      {
+        "Gleeok WIng": 12,
+        "Aerocuda Wing": 10,
+        "Gibdo Wing": 8
+      }
+    ],
+    "bonus": "Skydive Mobility Up",
+    "setIndex": 11,
+    "type": "chest"
+  },
+  "Ember Headdress": {
+    "upgrades": [
+      {
+        "Fire Fruit": 3
+      },
+      {
+        "Fire-Breath Lizalfos Horn": 5,
+        "Smotherwing Butterfly": 5
+      },
+      {
+        "Fire Like Stone": 5,
+        "Warm Darner": 7,
+        "Large Zonai Charge": 5
+      },
+      {
+        "Gleeok Flame Horn": 5,
+        "Sizzlefin Trout": 10,
+        "Large Zonai Charge": 10
+      }
+    ],
+    "bonus": "Hot Weather Attack Up",
+    "type": "hat",
+    "setIndex": 14
+  },
+  "Ember Trousers": {
+    "upgrades": [
+      {
+        "Fire Fruit": 3
+      },
+      {
+        "Fire-Breath Lizalfos Horn": 5,
+        "Smotherwing Butterfly": 5
+      },
+      {
+        "Fire Like Stone": 5,
+        "Warm Darner": 7,
+        "Large Zonai Charge": 5
+      },
+      {
+        "Gleeok Flame Horn": 5,
+        "Sizzlefin Trout": 10,
+        "Large Zonai Charge": 10
+      }
+    ],
+    "bonus": "Hot Weather Attack Up",
+    "type": "legs",
+    "setIndex": 14
+  },
+  "Ember Shirt": {
+    "upgrades": [
+      {
+        "Fire Fruit": 3
+      },
+      {
+        "Fire-Breath Lizalfos Horn": 5,
+        "Smotherwing Butterfly": 5
+      },
+      {
+        "Fire Like Stone": 5,
+        "Warm Darner": 7,
+        "Large Zonai Charge": 5
+      },
+      {
+        "Gleeok Flame Horn": 5,
+        "Sizzlefin Trout": 10,
+        "Large Zonai Charge": 10
+      }
+    ],
+    "bonus": "Hot Weather Attack Up",
+    "type": "chest",
+    "setIndex": 14
+  },
+  "Charged Headdress": {
+    "upgrades": [
+      {
+        "Shock Fruit": 3
+      },
+      {
+        "Electric Lizalfos Horn": 5,
+        "Thunderwing Butterfly": 3
+      },
+      {
+        "Large Zonai Charge": 3,
+        "Shock Like Stone": 5,
+        "Electric Darner": 5
+      },
+      {
+        "Gleeok Electric Horn": 5,
+        "Voltfin Trout": 10,
+        "Large Zonai Charge": 10
+      }
+    ],
+    "bonus": "Stormy Weather Attack Up",
+    "type": "hat",
+    "setIndex": 15
+  },
+  "Charged Trousers": {
+    "upgrades": [
+      {
+        "Shock Fruit": 3
+      },
+      {
+        "Electric Lizalfos Horn": 5,
+        "Thunderwing Butterfly": 3
+      },
+      {
+        "Large Zonai Charge": 3,
+        "Shock Like Stone": 5,
+        "Electric Darner": 5
+      },
+      {
+        "Gleeok Electric Horn": 5,
+        "Voltfin Trout": 10,
+        "Large Zonai Charge": 10
+      }
+    ],
+    "bonus": "Stormy Weather Attack Up",
+    "type": "legs",
+    "setIndex": 15
+  },
+  "Charged Shirt": {
+    "upgrades": [
+      {
+        "Shock Fruit": 3
+      },
+      {
+        "Electric Lizalfos Horn": 5,
+        "Thunderwing Butterfly": 3
+      },
+      {
+        "Large Zonai Charge": 3,
+        "Shock Like Stone": 5,
+        "Electric Darner": 5
+      },
+      {
+        "Gleeok Electric Horn": 5,
+        "Voltfin Trout": 10,
+        "Large Zonai Charge": 10
+      }
+    ],
+    "bonus": "Stormy Weather Attack Up",
+    "type": "chest",
+    "setIndex": 15
+  },
+  "Frostbite Headdress": {
+    "upgrades": [
+      {
+        "Ice Fruit": 3
+      },
+      {
+        "Ice-Breath Lizalfos Horn": 5,
+        "Winterwing Butterfly": 5
+      },
+      {
+        "Ice Like Stone": 5,
+        "Cold Darner": 5,
+        "Large Zonai Charge": 5
+      },
+      {
+        "Gleeok Frost Horn": 5,
+        "Chillfin Trout": 10,
+        "Large Zonai Charge": 10
+      }
+    ],
+    "bonus": "Cold Weather Attack Up",
+    "setIndex": 16,
+    "type": "hat"
+  },
+  "Frostbite Trousers": {
+    "upgrades": [
+      {
+        "Ice Fruit": 3
+      },
+      {
+        "Ice-Breath Lizalfos Horn": 5,
+        "Winterwing Butterfly": 5
+      },
+      {
+        "Ice Like Stone": 5,
+        "Cold Darner": 5,
+        "Large Zonai Charge": 5
+      },
+      {
+        "Gleeok Frost Horn": 5,
+        "Chillfin Trout": 10,
+        "Large Zonai Charge": 10
+      }
+    ],
+    "bonus": "Cold Weather Attack Up",
+    "setIndex": 16,
+    "type": "legs"
+  },
+  "Frostbite Shirt": {
+    "upgrades": [
+      {
+        "Ice Fruit": 3
+      },
+      {
+        "Ice-Breath Lizalfos Horn": 5,
+        "Winterwing Butterfly": 5
+      },
+      {
+        "Ice Like Stone": 5,
+        "Cold Darner": 5,
+        "Large Zonai Charge": 5
+      },
+      {
+        "Gleeok Frost Horn": 5,
+        "Chillfin Trout": 10,
+        "Large Zonai Charge": 10
+      }
+    ],
+    "bonus": "Cold Weather Attack Up",
+    "setIndex": 16,
+    "type": "chest"
+  },
+  "Zonaite Helm": {
+    "upgrades": [
+      {
+        "Soldier Construct Horn": 5
+      },
+      {
+        "Soldier Construct II Horn": 5,
+        "Zonaite": 5,
+        "Captain Construct I Horn": 5
+      },
+      {
+        "Large Zonaite": 5,
+        "Captain Construct II Horn": 5,
+        "Soldier Construct III Horn": 5
+      },
+      {
+        "Soldier Construct IV Horn": 5,
+        "Captain Construct III Horn": 5,
+        "Large Zonaite": 10
+      }
+    ],
+    "bonus": "Energy Up",
+    "type": "hat",
+    "setIndex": 18
+  },
+  "Zonaite Shin Guards": {
+    "upgrades": [
+      {
+        "Soldier Construct Horn": 5
+      },
+      {
+        "Soldier Construct II Horn": 5,
+        "Zonaite": 5,
+        "Captain Construct I Horn": 5
+      },
+      {
+        "Large Zonaite": 5,
+        "Captain Construct II Horn": 5,
+        "Soldier Construct III Horn": 5
+      },
+      {
+        "Soldier Construct IV Horn": 5,
+        "Captain Construct III Horn": 5,
+        "Large Zonaite": 10
+      }
+    ],
+    "bonus": "Energy Up",
+    "type": "legs",
+    "setIndex": 18
+  },
+  "Zonaite Waistguard": {
+    "upgrades": [
+      {
+        "Soldier Construct Horn": 5
+      },
+      {
+        "Soldier Construct II Horn": 5,
+        "Zonaite": 5,
+        "Captain Construct I Horn": 5
+      },
+      {
+        "Large Zonaite": 5,
+        "Captain Construct II Horn": 5,
+        "Soldier Construct III Horn": 5
+      },
+      {
+        "Soldier Construct IV Horn": 5,
+        "Captain Construct III Horn": 5,
+        "Large Zonaite": 10
+      }
+    ],
+    "bonus": "Energy Up",
+    "type": "chest",
+    "setIndex": 18
+  },
+  "Yiga Mask": {
+    "upgrades": [
+      {
+        "Octorok Eyeball": 2
+      },
+      {
+        "Fire-Breath LIzalfos Tail": 3,
+        "Puffshroom": 3
+      },
+      {
+        "Keese Eyeball": 5,
+        "Ice-Breath Lizalfos Tail": 5
+      },
+      {
+        "Electric Lizalfos Tail": 5,
+        "Black Hinox Horn": 3,
+        "Mighty Banana": 10
+      }
+    ],
+    "bonus": "Stealth Up",
+    "setIndex": 17,
+    "type": "hat"
+  },
+  "Yiga Tights": {
+    "upgrades": [
+      {
+        "Octorok Eyeball": 2
+      },
+      {
+        "Fire-Breath LIzalfos Tail": 3,
+        "Puffshroom": 3
+      },
+      {
+        "Keese Eyeball": 5,
+        "Ice-Breath Lizalfos Tail": 5
+      },
+      {
+        "Electric Lizalfos Tail": 5,
+        "Black Hinox Horn": 3,
+        "Mighty Banana": 10
+      }
+    ],
+    "bonus": "Stealth Up",
+    "setIndex": 17,
+    "type": "legs"
+  },
+  "Yiga Armor": {
+    "upgrades": [
+      {
+        "Octorok Eyeball": 2
+      },
+      {
+        "Fire-Breath LIzalfos Tail": 3,
+        "Puffshroom": 3
+      },
+      {
+        "Keese Eyeball": 5,
+        "Ice-Breath Lizalfos Tail": 5
+      },
+      {
+        "Electric Lizalfos Tail": 5,
+        "Black Hinox Horn": 3,
+        "Mighty Banana": 10
+      }
+    ],
+    "bonus": "Stealth Up",
+    "setIndex": 17,
+    "type": "chest"
+  },
+  "Snow Boots": {
+    "upgrades": [
+      {
+        "Hightail Lizard": 3
+      },
+      {
+        "Octorok Tentacle": 5,
+        "Swift Carrot": 5
+      },
+      {
+        "Octo Baloon": 5,
+        "Rushroom": 20
+      },
+      {
+        "Naydra Scale": 2,
+        "Swift Violet": 20
+      }
+    ],
+    "bonus": "Snow Speed Up",
+    "type": "legs",
+    "setIndex": 37
+  },
+  "Vah Ruta Divine Helm": {
+    "upgrades": [
+      {
+        "Opal": 5,
+        "Zonaite": 5
+      },
+      {
+        "Opal": 10,
+        "Zonaite": 10
+      },
+      {
+        "Opal": 15,
+        "Large Zonaite": 5,
+        "Dazzlefruit": 5
+      },
+      {
+        "Opal": 25,
+        "Large Zonaite": 10,
+        "Dazzlefruit": 10
+      }
+    ],
+    "bonus": "Swim Speed Up",
+    "setIndex": 41,
+    "type": "hat"
+  },
+  "Sheik's Mask": {
+    "upgrades": [
+      {
+        "Silent Princess": 1,
+        "Star Fragment": 1
+      },
+      {
+        "Silent Princess": 2,
+        "Star Fragment": 2
+      },
+      {
+        "Silent Princess": 4,
+        "Star Fragment": 3
+      },
+      {
+        "Silent Princess": 8,
+        "Star Fragment": 4
+      }
+    ],
+    "bonus": "Stealth Up",
+    "type": "hat",
+    "setIndex": 42
+  },
+  "Fierce Deity Mask": {
+    "upgrades": [
+      {
+        "Hinox Toenail": 5,
+        "Dinraal Scale": 1
+      },
+      {
+        "Hinox Tooth": 5,
+        "Dinraal Claw": 1
+      },
+      {
+        "Hinox Guts": 2,
+        "Dinraal Fang": 1
+      },
+      {
+        "Lynel Guts": 2,
+        "Dinraal Horn": 1
+      }
+    ],
+    "bonus": "Attack Up",
+    "setIndex": 27,
+    "type": "hat"
+  },
+  "Fierce Deity Boots": {
+    "upgrades": [
+      {
+        "Hinox Toenail": 5,
+        "Farosh Scale": 1
+      },
+      {
+        "Hinox Tooth": 5,
+        "Farosh Claw": 1
+      },
+      {
+        "Hinox Guts": 2,
+        "Farosh Fang": 1
+      },
+      {
+        "Lynel Guts": 2,
+        "Farosh Horn": 1
+      }
+    ],
+    "bonus": "Attack Up",
+    "setIndex": 27,
+    "type": "legs"
+  },
+  "Fierce Deity Armor": {
+    "upgrades": [
+      {
+        "Hinox Toenail": 5,
+        "Naydra Scale": 1
+      },
+      {
+        "Hinox Tooth": 5,
+        "Naydra Claw": 1
+      },
+      {
+        "Hinox Guts": 2,
+        "Naydra Fang": 1
+      },
+      {
+        "Lynel Guts": 2,
+        "Naydra Horn": 1
+      }
+    ],
+    "bonus": "Attack Up",
+    "setIndex": 27,
+    "type": "chest"
+  },
+  "Cap of the Hero": {
+    "upgrades": [
+      {
+        "Ruby": 1,
+        "Star Fragment": 1
+      },
+      {
+        "Ruby": 4,
+        "Star Fragment": 1
+      },
+      {
+        "Ruby": 6,
+        "Star Fragment": 1
+      },
+      {
+        "Ruby": 10,
+        "Star Fragment": 1
+      }
+    ],
+    "bonus": "Attack Up",
+    "setIndex": 28,
+    "type": "hat"
+  },
+  "Trousers of the Hero": {
+    "upgrades": [
+      {
+        "Ruby": 1,
+        "Star Fragment": 1
+      },
+      {
+        "Ruby": 4,
+        "Star Fragment": 1
+      },
+      {
+        "Ruby": 6,
+        "Star Fragment": 1
+      },
+      {
+        "Ruby": 10,
+        "Star Fragment": 1
+      }
+    ],
+    "bonus": "Attack Up",
+    "setIndex": 28,
+    "type": "legs"
+  },
+  "Tunic of the Hero": {
+    "upgrades": [
+      {
+        "Ruby": 1,
+        "Star Fragment": 1
+      },
+      {
+        "Ruby": 4,
+        "Star Fragment": 1
+      },
+      {
+        "Ruby": 6,
+        "Star Fragment": 1
+      },
+      {
+        "Ruby": 10,
+        "Star Fragment": 1
+      }
+    ],
+    "bonus": "Attack Up",
+    "setIndex": 28,
+    "type": "chest"
+  },
+  "Miner's Mask": {
+    "upgrades": [
+      {
+        "Brightbloom Seed": 10
+      },
+      {
+        "Brightbloom Seed": 20,
+        "Bright Cap": 5
+      },
+      {
+        "Giant Brightbloom Seed": 15,
+        "Glowing Cave Fish": 5,
+        "Deep Firefly": 10
+      },
+      {
+        "Giant Brightbloom Seed": 20,
+        "Diamond": 3,
+        "Large Zonaite": 10
+      }
+    ],
+    "bonus": "Glow",
+    "setIndex": 13,
+    "type": "hat"
+  },
+  "Miner's Trousers": {
+    "upgrades": [
+      {
+        "Brightbloom Seed": 10
+      },
+      {
+        "Brightbloom Seed": 20,
+        "Bright Cap": 5
+      },
+      {
+        "Giant Brightbloom Seed": 15,
+        "Glowing Cave Fish": 5,
+        "Deep Firefly": 10
+      },
+      {
+        "Giant Brightbloom Seed": 20,
+        "Diamond": 3,
+        "Large Zonaite": 10
+      }
+    ],
+    "bonus": "Glow",
+    "setIndex": 13,
+    "type": "legs"
+  },
+  "Miner's Top": {
+    "upgrades": [
+      {
+        "Brightbloom Seed": 10
+      },
+      {
+        "Brightbloom Seed": 20,
+        "Bright Cap": 5
+      },
+      {
+        "Giant Brightbloom Seed": 15,
+        "Glowing Cave Fish": 5,
+        "Deep Firefly": 10
+      },
+      {
+        "Giant Brightbloom Seed": 20,
+        "Diamond": 3,
+        "Large Zonaite": 10
+      }
+    ],
+    "bonus": "Glow",
+    "setIndex": 13,
+    "type": "chest"
+  },
+  "Radiant Mask": {
+    "upgrades": [
+      {
+        "Luminous Stone": 10,
+        "Moblin Guts": 1
+      },
+      {
+        "Luminous Stone": 15,
+        "Moblin Guts": 2
+      },
+      {
+        "Luminous Stone": 20,
+        "Horriblin Guts": 3,
+        "Gibdo Bone": 10
+      },
+      {
+        "Luminous Stone": 30,
+        "Molduga Jaw": 3
+      }
+    ],
+    "bonus": "Prevents Staal enemies from attacking",
+    "type": "hat",
+    "setIndex": 9
+  },
+  "Radiant Tights": {
+    "upgrades": [
+      {
+        "Luminous Stone": 10,
+        "Moblin Guts": 1
+      },
+      {
+        "Luminous Stone": 15,
+        "Moblin Guts": 2
+      },
+      {
+        "Luminous Stone": 20,
+        "Horriblin Guts": 3,
+        "Gibdo Bone": 10
+      },
+      {
+        "Luminous Stone": 30,
+        "Molduga Jaw": 3
+      }
+    ],
+    "bonus": "Prevents Staal enemies from attacking",
+    "type": "legs",
+    "setIndex": 9
+  },
+  "Radiant Shirt": {
+    "upgrades": [
+      {
+        "Luminous Stone": 10,
+        "Moblin Guts": 1
+      },
+      {
+        "Luminous Stone": 15,
+        "Moblin Guts": 2
+      },
+      {
+        "Luminous Stone": 20,
+        "Horriblin Guts": 3,
+        "Gibdo Bone": 10
+      },
+      {
+        "Luminous Stone": 30,
+        "Molduga Jaw": 3
+      }
+    ],
+    "bonus": "Prevents Staal enemies from attacking",
+    "type": "chest",
+    "setIndex": 9
+  }
 }

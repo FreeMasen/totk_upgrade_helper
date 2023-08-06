@@ -99,7 +99,7 @@ let add_armor_row = (item_name, item_data, state, update_cb) => {
     /**
      * @type HTMLTrElement
      */
-    let [row_one, row_two, row_three] = Array.from(tmp.querySelectorAll('tr'));
+    let [row_one, row_two, row_three, row_four] = Array.from(tmp.querySelectorAll('tr'));
     
     let name = row_one.querySelector(".name");
     name.innerText = item_name;
@@ -115,7 +115,6 @@ let add_armor_row = (item_name, item_data, state, update_cb) => {
         let checked = state[item_name] ? !!state[item_name][0] : false;
         two.appendChild(gen_checkbox(item_name, 2, checked, update_cb));
         gen_materials(item_data.upgrades[1], two);
-        
     }
     if (item_data.upgrades[2]) {
         let three = row_three.querySelector(".upgrade-three");
@@ -123,7 +122,13 @@ let add_armor_row = (item_name, item_data, state, update_cb) => {
         three.appendChild(gen_checkbox(item_name, 3, checked, update_cb));
         gen_materials(item_data.upgrades[2], three);
     }
-    for (let ele of [row_one, row_two, row_three]) {
+    if (item_data.upgrades[3]) {
+        let four = row_four.querySelector(".upgrade-four");
+        let checked = state[item_name] ? !!state[item_name][0] : false;
+        four.appendChild(gen_checkbox(item_name, 4, checked, update_cb));
+        gen_materials(item_data.upgrades[3], four);
+    }
+    for (let ele of [row_one, row_two, row_three, row_four]) {
         ele.setAttribute("style", gen_style(dark));
         ARMOR_TABLE_BODY.appendChild(ele);
     }
@@ -184,8 +189,6 @@ async function main() {
         if (dataL.setIndex == dataR.setIndex) {
             return armor_type_sorter(dataL.type, dataR.type);
         }
-        if (!setIndexL) return 1;
-        if (!setIndexR) return -1;
         return setIndexL - setIndexR;
 
     })
