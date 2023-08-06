@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html {
+                background: #543b25;
+                color: ghostwhite;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            main {
+                display: flex;
+                flex-flow: row;
+                align-items: start;
+                justify-content: center;
+            }
+            table {
+                border-collapse: collapse;
+            }
+            thead > tr {
+                border-bottom: 2px solid #253324;
+            }
+            tbody > tr {
+                border-bottom: 1px solid #253324;
+            }
+            .upgrade-one,
+            .upgrade-two,
+            .upgrade-three {
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                justify-content: start;
+            }
+            .upgrade-number {
+                border-left: 1px solid #253324;
+                width: 15px;
+            }
+            .section {
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+            }
+            #item-list-table  tr > th {
+                text-align: left;
+                padding-left: 5px;
+            }
+            #spacer {
+                width: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div id="armor-section" class="section">
+                <h2>Armor List</h2>
+                <table id="armor-list-table">
+                    <thead>
+                        <th width="200px">Item Name</th>
+                        <th width="250px" colspan="2">Upgrades</th>
+                    </thead>
+                    <tbody id="armor-list-table-body">
+    
+                    </tbody>
+                </table>
+            </div>
+            <div id="spacer"></div>
+            <div class="section">
+                <h2>Item List</h2>
+                <table id="item-list-table">
+                    <thead>
+                        <th>Item Name</th>
+                        <th width="50px">Quantity</th>
+                    </thead>
+                    <tbody id="item-list-table-body"></tbody>
+                </table>
+            </div>
+        </main>
+        <template id="armor-row-template">
+            <tr class="table-content-row">
+                <th class="name" rowspan="3"></th>
+                <th class="upgrade-number">1</th>
+                <td class="upgrade-one"></td>
+            </tr>
+            <tr>
+                <th class="upgrade-number">2</th>
+                <td class="upgrade-two"></td>
+            </tr>
+            <tr>
+                <th class="upgrade-number">3</th>
+                <td class="upgrade-three"></td>
+            </tr>
+        </template>
+        <template id="item-row-template">
+            <tr height="25px">
+                <th class="name"></th>
+                <td class="quantity"></td>
+            </tr>
+        </template>
+        <script src="index.mjs" type="module"></script>
+    </body>
+</html>
