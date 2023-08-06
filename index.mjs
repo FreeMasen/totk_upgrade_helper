@@ -39,6 +39,11 @@ let update_needed = (data) => {
      */
     let checks = Array.from(document.querySelectorAll(".upgrade-checkbox"));
     for (let check of checks) {
+        let checked_state = state[check.dataset.itemName];
+        if (!checked_state) {
+            state[check.dataset.itemName] = checked_state = [];
+        }
+        checked_state[+check.dataset.upgradeIndex] = check.checked
         if (!check.checked) {
             let item = data[check.dataset.itemName];
             let upgrade = item.upgrades[check.dataset.upgradeIndex];
@@ -112,19 +117,19 @@ let add_armor_row = (item_name, item_data, state, update_cb) => {
     }
     if (item_data.upgrades[1]) {
         let two = row_two.querySelector(".upgrade-two");
-        let checked = state[item_name] ? !!state[item_name][0] : false;
+        let checked = state[item_name] ? !!state[item_name][1] : false;
         two.appendChild(gen_checkbox(item_name, 2, checked, update_cb));
         gen_materials(item_data.upgrades[1], two);
     }
     if (item_data.upgrades[2]) {
         let three = row_three.querySelector(".upgrade-three");
-        let checked = state[item_name] ? !!state[item_name][0] : false;
+        let checked = state[item_name] ? !!state[item_name][2] : false;
         three.appendChild(gen_checkbox(item_name, 3, checked, update_cb));
         gen_materials(item_data.upgrades[2], three);
     }
     if (item_data.upgrades[3]) {
         let four = row_four.querySelector(".upgrade-four");
-        let checked = state[item_name] ? !!state[item_name][0] : false;
+        let checked = state[item_name] ? !!state[item_name][3] : false;
         four.appendChild(gen_checkbox(item_name, 4, checked, update_cb));
         gen_materials(item_data.upgrades[3], four);
     }
