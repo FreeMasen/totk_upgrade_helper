@@ -16,7 +16,8 @@ let save_state = (state) => {
 }
 
 let gen_style = (dark) => {
-    return `background: ${dark ? "#008276" : "#fbbe49"}; color: ${dark ? "ghostwhite" : "#253324;"}`
+    let foreground = dark ? "ghostwhite" : "#253324";
+    return `background: ${dark ? "#008276" : "#fbbe49"}; color: ${foreground};border-color: ${foreground}`
 }
 
 let item_dark = false;
