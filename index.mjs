@@ -64,6 +64,7 @@ let update_needed = (data) => {
     for (let key in total_counts) {
         keys.push(key);
     }
+    keys.sort();
     for (let key of keys) {
         add_item_row(key, total_counts[key]);
     }
