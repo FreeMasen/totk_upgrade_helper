@@ -35,6 +35,10 @@
                 border-left: 1px solid;
                 width: 15px;
             }
+            .complete {
+                border-left: 1px solid;
+                text-align: center;
+            }
             .section {
                 display: flex;
                 flex-flow: column;
@@ -47,12 +51,20 @@
             #spacer {
                 width: 15px;
             }
+            .hidden {
+                display: none;
+                /* background-color: red; */
+            }
         </style>
     </head>
     <body>
         <main>
             <div id="armor-section" class="section">
                 <h2>Armor List</h2>
+                <label>
+                    <input type="checkbox" id="hide-complete-sets" />
+                    Hide Complete
+                </label>
                 <table id="armor-list-table">
                     <thead>
                         <th width="200px">Item Name</th>
@@ -79,19 +91,20 @@
             <tr class="table-content-row">
                 <th class="name" rowspan="4"></th>
                 <th class="upgrade-number">1</th>
-                <td class="upgrade-one"></td>
+                <td class="upgrade upgrade-one"></td>
+                <td colspan="2" class="hidden complete">Complete</td>
             </tr>
             <tr>
                 <th class="upgrade-number">2</th>
-                <td class="upgrade-two"></td>
+                <td class="upgrade upgrade-two"></td>
             </tr>
             <tr>
                 <th class="upgrade-number">3</th>
-                <td class="upgrade-three"></td>
+                <td class="upgrade upgrade-three"></td>
             </tr>
             <tr>
                 <th class="upgrade-number">4</th>
-                <td class="upgrade-four"></td>
+                <td class="upgrade upgrade-four"></td>
             </tr>
         </template>
         <template id="item-row-template">

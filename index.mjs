@@ -1,6 +1,11 @@
 const ARMOR_TABLE_BODY = document.getElementById("armor-list-table-body");
 const ITEM_TABLE_BODY = document.getElementById("item-list-table-body");
+const HIDE_COMPLETE_CHECK_BOX = document.getElementById("hide-complete-sets");
 const STATE_KEY = "totk-armor-helper-state";
+
+let item_class_name = item_name => {
+    return item_name.replaceAll(/[^a-zA-Z]/g, "-").toLocaleLowerCase();
+}
 
 let get_state = () => {
     let raw = localStorage.getItem(STATE_KEY);
@@ -11,7 +16,7 @@ let get_state = () => {
 }
 
 let save_state = (state) => {
-    console.log("Save state!");
+    // console.log("Save state!");
     localStorage.setItem(STATE_KEY, JSON.stringify(state));
 }
 
@@ -32,7 +37,53 @@ let add_item_row = (item_name, count) => {
     item_dark = !item_dark;
 }
 
+let set_ele_class = (ele, hide) => {
+    if (!ele) {
+        return;
+    }
+    if (hide) {
+        ele.classList.add("hidden");
+    } else {
+        ele.classList.remove("hidden");
+    }
+ }
+
+let set_row_class = (row, hide) => {
+    // console.log(row, hide);
+    let n = row.querySelector(".upgrade-number");
+    set_ele_class(n, hide);
+    let i = row.querySelector(".upgrade");
+    set_ele_class(i, hide);
+    let c = row.querySelector(".complete")
+    set_ele_class(c, !hide);
+}
+
+let row_class = (set_name, hide) => {
+    // console.log("row_class", set_name, hide)
+    let item_class = item_class_name(set_name);
+    for (let rows of document.querySelectorAll("." + item_class)) {
+        set_row_class(rows, hide);
+    }
+}
+
+let show_hide_rows = state => {
+    let hide_enabled = !!state.hide_completed;
+    for (let set_name of Object.getOwnPropertyNames(state)) {
+        if (set_name == "hide_completed") {
+            continue;
+        }
+        let complete = state[set_name];
+        // console.log(set_name, complete);
+        let hide = hide_enabled && complete.reduce((acc, b) => acc && b, true);
+        row_class(set_name, hide);
+    }
+};
+
+
 let update_needed = (data) => {
+    setTimeout(() => {
+        show_hide_rows(get_state());
+    }, 0);
     let state = get_state();
     let total_counts = {};
     /**
@@ -47,6 +98,7 @@ let update_needed = (data) => {
         checked_state[+check.dataset.upgradeIndex] = check.checked
         if (!check.checked) {
             let item = data[check.dataset.itemName];
+            console.log(check.dataset.itemName, item, state);
             let upgrade = item.upgrades[check.dataset.upgradeIndex];
             for (let key in upgrade) {
                 let ct = upgrade[key];
@@ -68,6 +120,8 @@ let update_needed = (data) => {
     for (let key of keys) {
         add_item_row(key, total_counts[key]);
     }
+    state.hide_completed = HIDE_COMPLETE_CHECK_BOX.checked;
+    
     save_state(state);
 }
 
@@ -99,6 +153,7 @@ let gen_materials = (mats, parent) => {
 }
 let dark = false;
 let add_armor_row = (item_name, item_data, state, update_cb) => {
+    
     /**
      * @type HTMLTemplateElement
      */
@@ -135,8 +190,11 @@ let add_armor_row = (item_name, item_data, state, update_cb) => {
         four.appendChild(gen_checkbox(item_name, 4, checked, update_cb));
         gen_materials(item_data.upgrades[3], four);
     }
+    let item_class = item_class_name(item_name);
     for (let ele of [row_one, row_two, row_three, row_four]) {
         ele.setAttribute("style", gen_style(dark));
+        // console.log("adding", item_class);
+        ele.classList.add(item_class);
         ARMOR_TABLE_BODY.appendChild(ele);
     }
     dark = !dark;
@@ -198,7 +256,11 @@ async function main() {
         }
         return setIndexL - setIndexR;
 
-    })
+    });
+    if (state.hide_completed) {
+        HIDE_COMPLETE_CHECK_BOX.checked = true;
+    }
+    HIDE_COMPLETE_CHECK_BOX.addEventListener("change", update_cb);
     for (let key of armor_keys) {
         add_armor_row(key, data[key], state, update_cb);
     }
